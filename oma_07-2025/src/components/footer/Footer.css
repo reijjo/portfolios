@@ -1,0 +1,25 @@
+footer {
+  border-top: 1px solid var(--deco-line);
+  border-bottom: none;
+  justify-content: space-around;
+}
+
+.footer-content {
+  justify-content: space-between;
+  padding: 0 1rem;
+  color: var(--text-light);
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+
+  & a {
+    transition: transform 0.25s ease-out;
+  }
+
+  & a:hover {
+    transform: scale(1.5);
+    color: var(--text);
+  }
+}
