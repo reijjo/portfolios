@@ -12,6 +12,8 @@
 
   --primary: #1a1a1a;
   --accent: #efd09e;
+  --accent-tb-l: rgba(239, 208, 158, 0.75);
+  --accent-tb-s: rgba(239, 208, 158, 0.5);
 
   --text: rgba(255, 255, 255, 0.87);
   --text-light: rgba(255, 255, 255, 0.5);
@@ -33,4 +35,18 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+button {
+  all: unset;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-weight: inherit;
+  font-size: 1rem;
+  color: var(--text-light);
 }

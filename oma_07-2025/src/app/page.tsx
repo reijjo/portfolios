@@ -6,6 +6,14 @@ export default function Home() {
     <main className="home-page">
       <Hero />
       <Projects />
+      <Projects />
+      <Projects />
+      <Projects />
+      <Projects />
+      <Projects />
+      <Projects />
+      <Projects />
+      <Projects />
     </main>
   );
 }
