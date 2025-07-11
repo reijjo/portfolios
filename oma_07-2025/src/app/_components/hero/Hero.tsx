@@ -6,20 +6,12 @@ export const Hero = () => {
     <section className="hero-section">
       <div className="hero-content">
         <div className="hero-image-container">
-          <div className="tape tape-top-left">
-            {/* <Image
-              src="/assets/images/tape.png"
-              alt="tape"
-              title="Tape"
-              className="tape-image"
-              width={24}
-              height={100}
-              priority
-            /> */}
-          </div>
+          <div className="tape tape-top-left"></div>
           <div className="tape tape-top-right"></div>
           <div className="tape tape-bottom-left"></div>
           <div className="tape tape-bottom-right"></div>
+          <div className="image-overlay"></div>
+
           <Image
             className="hero-image"
             src="/assets/images/mina.jpg"
@@ -31,7 +23,7 @@ export const Hero = () => {
           />
         </div>
         <div className="hero-titles">
-          <h1 className="hero-title">Hi, I am Teemu.</h1>
+          <h1 className="hero-title">I am Teemu.</h1>
           <h4 className="hero-subtitle">
             {" "}
             Your favorite Full Stack Developer who builds the kind of tools I

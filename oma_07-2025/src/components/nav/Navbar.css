@@ -11,6 +11,10 @@ footer {
   border-bottom: 1px solid var(--deco-line);
 }
 
+.nav-bg {
+  background-color: var(--primary);
+}
+
 .nav-content {
   width: min(90%, 1000px);
   height: 100%;
@@ -53,7 +57,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100%;
-  transition: transform 0.25s ease-in;
+  transition: transform 0.25s cubic-bezier(0, 0, 0.8, 0.2);
 }
 
 .nav-link:hover span,

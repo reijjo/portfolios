@@ -1,6 +1,7 @@
 footer {
   border-top: 1px solid var(--deco-line);
   border-bottom: none;
+  background-color: var(--primary);
 }
 
 .footer-content {

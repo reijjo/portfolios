@@ -1,16 +1,46 @@
 import "./Projects.css";
 
+import ProjectIntro from "./Intro";
+import ProjectInfo from "./ProjectInfo";
+
 export const Projects = () => {
+  const sneakPeeks = [
+    {
+      id: "tarpit",
+      title: "Tärpit",
+      description: "Sports bet tracking made simple",
+      techStack: [
+        "React",
+        "TypeScript",
+        "Express.js",
+        "CSS",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+      ],
+      image: "/assets/images/projects/tarpit/landing.png",
+      imageAlt: "Tärpit landing page",
+    },
+    {
+      id: "yatzy",
+      title: "Yatzy",
+      description: "Classic dice game brought to the browser",
+      techStack: ["React", "TypeScript", "Express.js", "CSS", "MongoDB"],
+      image: "/assets/images/projects/yatzy/yatzyDesk.png",
+      imageAlt: "Yatzy landing page",
+    },
+  ];
+
   return (
-    <section id="projects">
+    <section className="projects">
       <div className="projects-content">
-        <h2>My Projects</h2>
-        <p>Here are some of the projects I've worked on:</p>
-        <ul>
-          <li>Project 1: A web application for task management</li>
-          <li>Project 2: An e-commerce site built with React</li>
-          <li>Project 3: A personal blog using Next.js</li>
-        </ul>
+        <ProjectIntro />
+        {sneakPeeks.map((project) => (
+          <div key={project.id}>
+            <ProjectInfo {...project} />
+            {project.id !== "yatzy" && <div className="projects-divider"></div>}
+          </div>
+        ))}
       </div>
     </section>
   );

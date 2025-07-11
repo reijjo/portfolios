@@ -6,9 +6,10 @@ import { usePathname } from "next/navigation";
 
 export const Navbar = () => {
   const pathname = usePathname();
+  const isHomePage = pathname === "/";
 
   return (
-    <nav id="home" className="homeBg">
+    <nav id="home" className={isHomePage ? "" : "nav-bg"}>
       <div className="nav-content">
         <div className="nav-links-wrapper">
           <Link
