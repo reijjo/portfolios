@@ -34,10 +34,10 @@ export const Navbar = () => {
             <span className="nav-line hover">Projects</span>
           </Link>
           <div className="nav-link-wrapper contact-container">
-            <button className="nav-link contact-dropdown">
+            <div className="nav-link contact-dropdown">
               <span className="nav-line default">Contact</span>
               <span className="nav-line hover">Contact</span>
-            </button>
+            </div>
             <div className="nav-dropdown">
               <a
                 href="https://www.linkedin.com/in/teemu-aitomeri/"

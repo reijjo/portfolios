@@ -42,6 +42,8 @@
   font-family: var(--font-space-grotesk);
   font-weight: 400;
   text-transform: uppercase;
+  text-wrap: balance;
+  text-align: center;
   letter-spacing: 0.125em;
   background-color: var(--accent);
   color: black;

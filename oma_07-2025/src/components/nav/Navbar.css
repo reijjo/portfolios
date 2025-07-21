@@ -43,8 +43,6 @@ footer {
   height: 2rem;
   padding: 0;
   min-width: 6rem;
-  width: 100%;
-  white-space: nowrap;
   overflow: hidden;
   border: 1px solid var(--deco-line);
   border-radius: 0.5rem;
@@ -65,6 +63,12 @@ footer {
 .nav-link:hover span,
 .nav-active:hover span {
   transform: translateY(-100%);
+}
+
+.contact-container {
+  position: relative;
+  /* border: 1px solid red; */
+  padding: 0;
 }
 
 .contact-dropdown .nav-line.hover {
@@ -92,21 +96,16 @@ footer {
   transform: translateY(100%);
 }
 
-.contact-container {
-  position: relative;
-}
-
 .nav-dropdown {
   position: absolute;
-  top: 100%; /* appear below */
+  top: 100%;
   left: 0;
-  width: min-content;
-
+  width: 100%;
   display: none;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: var(--primary);
   border: 1px solid var(--deco-line);
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   z-index: 10;
   overflow: hidden;
 }
@@ -121,11 +120,9 @@ footer {
   border-bottom: 1px solid var(--deco-line);
   color: white;
   text-decoration: none;
-  overflow: visible;
-  width: 100%;
 
   &:last-child {
-    display: inline-flex;
+    background-color: brown;
     text-wrap: nowrap;
   }
 
