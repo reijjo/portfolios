@@ -33,10 +33,47 @@ export const Navbar = () => {
             <span className="nav-line default">Projects</span>
             <span className="nav-line hover">Projects</span>
           </Link>
-          <button className="nav-link">
-            <span className="nav-line default">Contact</span>
-            <span className="nav-line hover">Contact</span>
-          </button>
+          <div className="nav-link-wrapper contact-container">
+            <button className="nav-link contact-dropdown">
+              <span className="nav-line default">Contact</span>
+              <span className="nav-line hover">Contact</span>
+            </button>
+            <div className="nav-dropdown">
+              <a
+                href="https://www.linkedin.com/in/teemu-aitomeri/"
+                target="_blank"
+                title="LinkedIn"
+                className="dropdown-item"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/reijjo"
+                target="_blank"
+                title="GitHub"
+                className="dropdown-item"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://gitlab.com/reijjo"
+                target="_blank"
+                title="GitLab"
+                className="dropdown-item"
+              >
+                GitLab
+              </a>
+              <a
+                href="/files/CV_Aitomeri_Teemu.pdf"
+                download
+                className="dropdown-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

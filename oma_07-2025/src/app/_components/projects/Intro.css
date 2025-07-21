@@ -49,6 +49,7 @@
   align-items: flex-end;
   text-wrap: balance;
   transition: color 0.25s ease;
+  gap: 0.25rem;
 
   &:hover {
     color: var(--text);
