@@ -43,6 +43,7 @@ footer {
   height: 2rem;
   padding: 0;
   min-width: 6rem;
+  width: 100%;
   overflow: hidden;
   border: 1px solid var(--deco-line);
   border-radius: 0.5rem;
@@ -69,6 +70,7 @@ footer {
   position: relative;
   /* border: 1px solid red; */
   padding: 0;
+  text-align: center;
 }
 
 .contact-dropdown .nav-line.hover {
@@ -89,7 +91,7 @@ footer {
 
 .contact-dropdown {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .contact-dropdown:hover span {
@@ -100,12 +102,12 @@ footer {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
   display: none;
   flex-direction: column;
   background-color: var(--primary);
   border: 1px solid var(--deco-line);
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   z-index: 10;
   overflow: hidden;
 }
@@ -120,9 +122,11 @@ footer {
   border-bottom: 1px solid var(--deco-line);
   color: white;
   text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
   &:last-child {
-    background-color: brown;
     text-wrap: nowrap;
   }
 

@@ -55,3 +55,11 @@
     color: var(--text);
   }
 }
+
+.link-icon {
+  transition: transform 0.25s ease;
+}
+
+.project-intro-link:hover .link-icon {
+  transform: scale(1.5);
+}
