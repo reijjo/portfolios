@@ -1,12 +1,15 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useIsMobile } from "../../hooks/useMediaQuery";
 import "./ProjectInfo.css";
 
 interface ProjectInfoProps {
   title: string;
   description: string;
   techStack: string[];
-  image: string;
+  image: { desktop: string; mobile: string };
   imageAlt: string;
 }
 
@@ -17,6 +20,9 @@ const ProjectInfo = ({
   image,
   imageAlt,
 }: ProjectInfoProps) => {
+  const isMobile = useIsMobile();
+  const imageSrc = isMobile ? image.mobile : image.desktop;
+
   return (
     <>
       <div className="tarpit-intro">
@@ -38,10 +44,10 @@ const ProjectInfo = ({
             <div className="project-image">
               <Image
                 className="project-pic"
-                src={image}
+                src={imageSrc}
                 alt={imageAlt}
                 title={imageAlt}
-                sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
+                sizes="100vw"
                 priority
                 fill
               />
@@ -49,7 +55,7 @@ const ProjectInfo = ({
           </Link>
         </div>
       </div>
-      {/* <div className="projects-divider"></div> */}
+      <div className="projects-divider-last"></div>
     </>
   );
 };

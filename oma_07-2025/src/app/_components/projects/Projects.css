@@ -22,3 +22,10 @@
   border-bottom: 1px solid var(--deco-line);
   width: 100%;
 }
+
+.projects-divider-last {
+  height: 2rem;
+  border-top: 1px solid var(--deco-line);
+  width: 100%;
+  border-bottom: none;
+}

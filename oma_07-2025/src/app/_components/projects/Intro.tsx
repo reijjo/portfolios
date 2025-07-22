@@ -20,7 +20,7 @@ const ProjectIntro = () => (
     <div className="project-intro-middle"></div>
     <div className="project-intro-last">
       <Link href="/projects" className="project-intro-link">
-        Check more on the projects page
+        <p>Check more on the projects page</p>
         <FontAwesomeIcon
           icon={faArrowUpRightFromSquare}
           className="link-icon"

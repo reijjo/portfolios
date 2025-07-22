@@ -3,6 +3,15 @@
   grid-template-columns: repeat(3, 1fr);
   height: 15rem;
   border-bottom: 1px solid var(--deco-line);
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
 }
 
 .project-intro-icon {
@@ -35,6 +44,12 @@
   gap: 0.5rem;
 }
 
+.project-intro-middle {
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
 .project-intro-last {
   padding: 2rem;
   display: flex;
@@ -42,6 +57,10 @@
   justify-content: flex-end;
   color: var(--text-light);
   font-size: 1rem;
+
+  /* @media screen and (max-width: 800px) {
+    grid-template-columns: 2fr 1fr;
+  } */
 }
 
 .project-intro-link {
@@ -49,7 +68,7 @@
   align-items: flex-end;
   text-wrap: balance;
   transition: color 0.25s ease;
-  gap: 0.25rem;
+  gap: 1.25rem;
 
   &:hover {
     color: var(--text);

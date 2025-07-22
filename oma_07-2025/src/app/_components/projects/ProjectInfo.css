@@ -2,6 +2,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   min-height: 18rem;
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    /* border: 1px solid red; */
+  }
 }
 
 .tarpit-intro-text {
@@ -11,6 +17,10 @@
   flex-direction: column;
   justify-content: space-around;
   gap: 2rem;
+
+  @media screen and (max-width: 800px) {
+    border: none;
+  }
 }
 
 .tarpit-what {
@@ -55,6 +65,11 @@
 .tarpit-images {
   display: grid;
   grid-column: 2 / 4;
+
+  @media screen and (max-width: 800px) {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+  }
 }
 
 .tarpit-image-container {
@@ -81,6 +96,13 @@
   border-radius: 0.25rem;
 
   transition: all 0.3s ease-in;
+
+  @media screen and (max-width: 580px) {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+  }
 }
 
 .tarpit-image-container:hover .project-image {
@@ -91,4 +113,8 @@
 .project-pic {
   object-fit: fill;
   border-radius: 0.25rem;
+
+  @media screen and (max-width: 580px) {
+    aspect-ratio: 1/1;
+  }
 }

@@ -49,6 +49,11 @@ footer {
   border-radius: 0.5rem;
   background-color: transparent;
   cursor: pointer;
+
+  @media screen and (max-width: 580px) {
+    font-size: 0.5rem;
+    min-width: 3.5rem;
+  }
 }
 
 .nav-link span,
@@ -110,6 +115,10 @@ footer {
   border-radius: 0.5rem;
   z-index: 10;
   overflow: hidden;
+
+  @media screen and (max-width: 580px) {
+    font-size: 0.5rem;
+  }
 }
 
 .contact-container:hover .nav-dropdown {

@@ -18,7 +18,10 @@ export const Projects = () => {
         "Docker",
         "AWS",
       ],
-      image: "/assets/images/projects/tarpit/landing.png",
+      image: {
+        desktop: "/assets/images/projects/tarpit/landing.png",
+        mobile: "/assets/images/projects/tarpit/mobile2.png",
+      },
       imageAlt: "Tärpit landing page",
     },
     {
@@ -26,7 +29,10 @@ export const Projects = () => {
       title: "Yatzy",
       description: "Classic dice game brought to the browser",
       techStack: ["React", "TypeScript", "Express.js", "CSS", "MongoDB"],
-      image: "/assets/images/projects/yatzy/yatzyDesk.png",
+      image: {
+        desktop: "/assets/images/projects/yatzy/yatzyDesk.png",
+        mobile: "/assets/images/projects/yatzy/yatzyMob.png",
+      },
       imageAlt: "Yatzy landing page",
     },
   ];
@@ -39,6 +45,7 @@ export const Projects = () => {
           <div key={project.id}>
             <ProjectInfo {...project} />
             {project.id !== "yatzy" && <div className="projects-divider"></div>}
+            {/* <div className="projects-divider"></div> */}
           </div>
         ))}
       </div>
