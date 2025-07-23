@@ -55,7 +55,7 @@ const ProjectInfo = ({
           </Link>
         </div>
       </div>
-      <div className="projects-divider-last"></div>
+      {/* <div className="projects-divider-last"></div> */}
     </>
   );
 };

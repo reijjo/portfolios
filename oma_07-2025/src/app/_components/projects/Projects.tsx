@@ -44,8 +44,7 @@ export const Projects = () => {
         {sneakPeeks.map((project) => (
           <div key={project.id}>
             <ProjectInfo {...project} />
-            {project.id !== "yatzy" && <div className="projects-divider"></div>}
-            {/* <div className="projects-divider"></div> */}
+            <div className="projects-divider"></div>
           </div>
         ))}
       </div>

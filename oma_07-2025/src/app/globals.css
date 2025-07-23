@@ -16,6 +16,7 @@
   --accent: #efd09e;
   --accent-tb-l: rgba(239, 208, 158, 0.75);
   --accent-tb-s: rgba(239, 208, 158, 0.5);
+  --accent-tb-xs: rgba(239, 208, 158, 0.25);
 
   --text: rgba(255, 255, 255, 0.85);
   --text-light: rgba(255, 255, 255, 0.65);
