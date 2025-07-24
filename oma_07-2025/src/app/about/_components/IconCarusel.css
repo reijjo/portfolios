@@ -1,10 +1,13 @@
 .about-deco-box-carusel {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 1rem;
   position: relative;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .about-deco-box-carusel-inner {
@@ -17,10 +20,36 @@
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0.5) 5%,
-    rgba(0, 0, 0, 0) 15%,
-    rgba(0, 0, 0, 0) 85%,
-    rgba(0, 0, 0, 0.5) 95%,
+    rgba(0, 0, 0, 0.5) 10%,
+    rgba(0, 0, 0, 0) 20%,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0.5) 90%,
     rgba(0, 0, 0, 1) 100%
   );
+  pointer-events: none;
+}
+
+.carousel-track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: scrollUp 30s linear infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  gap: 1rem;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
 }
