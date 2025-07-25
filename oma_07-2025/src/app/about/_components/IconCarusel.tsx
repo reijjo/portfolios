@@ -4,6 +4,7 @@ import "./IconCarusel.css";
 const IconCarusel = () => {
   const icons = [
     { src: "/assets/icons/React.svg", alt: "React icon", title: "React" },
+    { src: "/assets/icons/Next.js.svg", alt: "Nextjs icon", title: "Nextjs" },
     {
       src: "/assets/icons/TypeScript.svg",
       alt: "TypeScript icon",
