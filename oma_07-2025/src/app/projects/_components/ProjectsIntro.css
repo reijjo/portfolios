@@ -5,6 +5,10 @@
   width: 100%;
   height: 100%;
   border-bottom: 1px solid var(--deco-line);
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .projects-title {
@@ -15,6 +19,10 @@
   padding: 7rem 2rem 2rem;
   text-wrap: balance;
   border-right: 1px solid var(--deco-line);
+
+  @media screen and (max-width: 900px) {
+    border-right: none;
+  }
 
   & h1 {
     color: var(--text-light);
@@ -36,4 +44,8 @@
 
 .projects-deco-div {
   border-right: 1px solid var(--deco-line);
+
+  @media screen and (max-width: 900px) {
+    border-right: none;
+  }
 }

@@ -23,7 +23,7 @@ const tarpit = {
   stack: {
     frontend: "React | TypeScript | CSS",
     backend: "Bun | Express",
-    database: "PostgreSQL | Sequelize",
+    database: "PostgreSQL | Sequelize | AWS RDS",
     devops: "Docker | GitHub Actions | pgAdmin",
     other: "RestAPI | Redux | RTK Query",
   },

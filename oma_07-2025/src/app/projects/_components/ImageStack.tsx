@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
+import { useIsMobile } from "app/hooks/useMediaQuery";
 
 interface ImageStackProps {
   images: string[];
@@ -7,6 +8,7 @@ interface ImageStackProps {
 
 const ImageStack = ({ images }: ImageStackProps) => {
   const [stack, setStack] = useState(images);
+  const isMobile = useIsMobile();
 
   const rotateStack = () => {
     const updated = [...stack];
@@ -29,8 +31,8 @@ const ImageStack = ({ images }: ImageStackProps) => {
           <Image
             src={src}
             alt={`screenshot ${i + 1}`}
-            width={360}
-            height={180}
+            width={isMobile ? 240 : 360}
+            height={isMobile ? 120 : 180}
           />
         </div>
       ))}
