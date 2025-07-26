@@ -2,7 +2,9 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 import "./ProjectItem.css";
+import "./ImageStack.css";
 import Image from "next/image";
+import ImageStack from "./ImageStack";
 
 interface ProjectItemProps {
   logo: string;
@@ -141,10 +143,12 @@ const ProjectItem = ({
                     <h4>Database</h4>
                     <p>{stack.database}</p>
                   </div>
-                  <div className="devops-stack">
-                    <h4>DevOps</h4>
-                    <p>{stack.devops}</p>
-                  </div>
+                  {stack.devops && (
+                    <div className="devops-stack">
+                      <h4>DevOps</h4>
+                      <p>{stack.devops}</p>
+                    </div>
+                  )}
                   <div className="other-stack">
                     <h4>Other</h4>
                     <p>{stack.other}</p>
@@ -183,8 +187,10 @@ const ProjectItem = ({
             )}
           </div>
         </div>
-        <div className="my-projects-images">
-          <p>Here you can find a list of my projects.</p>
+        <div className="my-projects-images-wrapper">
+          <div className="my-projects-images">
+            <ImageStack images={images.desktop} />
+          </div>
         </div>
       </div>
     </section>
