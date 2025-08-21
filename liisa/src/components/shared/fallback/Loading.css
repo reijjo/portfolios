@@ -1,0 +1,36 @@
+.loading-component {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.loading-100 {
+  min-height: 100vh;
+}
+
+.loading-message {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  height: max-content;
+  width: 100%;
+
+  & p {
+    height: 1rem;
+  }
+}
+
+.spinner {
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top-color: black; /* the visible part */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
