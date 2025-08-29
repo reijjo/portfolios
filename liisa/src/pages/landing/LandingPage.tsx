@@ -1,16 +1,16 @@
 import "./LandingPage.css";
 
-import hero from "../../assets/images/landing/liisa-hero.jpg";
-import herodesk from "../../assets/images/landing/liisa-desk.jpg";
+import liisa916 from "../../assets/images/landing/liisa-9-16.jpg";
+import liisa54 from "../../assets/images/landing/Liisa-5-4.jpg";
 
 const LandingPage = () => {
   return (
     <main className="landing-page">
       <section className="hero">
         <picture className="hero-image">
-          <source media="(width <= 600px)" srcSet={hero} />
+          <source media="(width <= 600px)" srcSet={liisa916} />
           <img
-            src={herodesk}
+            src={liisa54}
             alt="Luisa Lore"
             title="Luisa Lore"
             className="hero-img"
