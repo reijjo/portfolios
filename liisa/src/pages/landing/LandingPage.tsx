@@ -1,6 +1,6 @@
 import "./LandingPage.css";
 
-import liisa916 from "../../assets/images/landing/liisa-9-16.jpg";
+import liisa916 from "../../assets/images/landing/Liisa-9-16.jpg";
 import liisa54 from "../../assets/images/landing/Liisa-5-4.jpg";
 
 const LandingPage = () => {
