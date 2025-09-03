@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
+      <nav className={`navbar ${scrolled || isOpen ? "scrolled" : ""}`}>
         <div className="wrapper nav-wrapper">
           <div className="nav-logo">
             <NavLink to="/">
