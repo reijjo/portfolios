@@ -10,31 +10,29 @@
 
 .hero-image {
   display: flex;
-  padding: 2rem;
-  /* border: 1px solid red; */
   margin: 0 auto;
   width: 100%;
   max-width: 1366px;
-  aspect-ratio: 5/4;
-  height: auto;
-  /* max-height: 100dvh; */
+  height: max-content;
   justify-content: center;
 
   @media screen and (max-width: 600px) {
     aspect-ratio: 9/16;
-    padding: 0;
   }
-  /* aspect-ratio: 4/5; */
-  /* aspect-ratio: 3/4; */
-  /* overflow: hidden; */
 }
 
 .hero-img {
   width: 100%;
-  width: 100%;
+  max-width: 800px;
+  height: max-content;
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
 
   object-fit: contain;
-  /* object-fit: cover; */
+
+  @media screen and (max-width: 800px) {
+    border-radius: 0;
+  }
 
   @media screen and (max-width: 600px) {
     aspect-ratio: 9/16;
@@ -42,10 +40,11 @@
 
     object-position: top;
   }
+}
 
-  /* height: 100dvh; */
-  /* max-height: 50dvh; */
-  /* height: 50dvh; */
-  /* object-fit: cover; */
-  /* object-position: top; */
+.sitaatti {
+  text-wrap: balance;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem 1rem;
 }

@@ -17,6 +17,9 @@ const LandingPage = () => {
           />
         </picture>
       </section>
+      <h4 className="wrapper sitaatti">
+        "Lorem ipsum dolor sit amet consectetur."
+      </h4>
     </main>
   );
 };

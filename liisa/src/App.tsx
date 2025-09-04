@@ -22,7 +22,7 @@ function App() {
   console.log("RENDER");
 
   return (
-    <Suspense fallback={<Loading extraClass="loading-100" />}>
+    <Suspense fallback={<Loading message="" extraClass="loading-100" />}>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<LandingPage />} />

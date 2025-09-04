@@ -5,16 +5,23 @@ nav {
   left: 0;
   width: 100%;
   z-index: 10;
-  /* min-height: 10dvh; */
-  /* height: auto; */
   height: var(--nav-height);
-  /* backdrop-filter: blur(0.5rem); */
-
-  /* border-bottom: 1px solid black; */
+  backdrop-filter: blur(0.5rem);
+  /* background: linear-gradient(
+    to bottom right,
+    var(--secondary-400),
+    var(--secondary-400)
+  ); */
+  background-color: rgba(241, 217, 231, 0.85);
 }
 
 .scrolled {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.5);
+  background: linear-gradient(
+    to bottom right,
+    var(--accent-200),
+    var(--accent-200)
+  );
   backdrop-filter: blur(0.75rem);
 }
 
