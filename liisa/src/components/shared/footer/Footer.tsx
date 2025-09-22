@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer>
       <div className="wrapper footer-content">
-        <p>&copy; 2025 Liisa Repo</p>
+        <p className="footer-copy">&copy; 2025 Liisa Repo</p>
         <div className="footer-contact">
-          <p>repo.liisa@gmail.com</p>
+          <p className="footer-email">repo.liisa@gmail.com</p>
           <a
             href="https://instagram.com/luisa.loreart"
             target="_blank"

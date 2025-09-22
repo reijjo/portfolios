@@ -13,6 +13,7 @@ nav {
     var(--secondary-400)
   ); */
   background-color: rgba(241, 217, 231, 0.85);
+  border-bottom: 1px solid black;
 }
 
 .scrolled {

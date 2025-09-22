@@ -15,6 +15,11 @@
   max-width: 1366px;
   height: max-content;
   justify-content: center;
+  padding-top: 4rem;
+
+  @media screen and (max-width: 840px) {
+    padding-top: 0;
+  }
 
   @media screen and (max-width: 600px) {
     aspect-ratio: 9/16;
