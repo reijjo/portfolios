@@ -1,0 +1,8 @@
+footer {
+  min-height: var(--footer-height);
+  height: auto;
+  background-color: var(--accent-200);
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+}
