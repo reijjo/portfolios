@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Taide() {
   return (
     <main className="wrapper">
-      <h1>LIISA HOME</h1>
+      <h1>TAIDE</h1>
     </main>
   );
 }
