@@ -3,7 +3,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer className="wrapper">
-      <p>Footer &copy;</p>
+      <p>&copy; {new Date().getFullYear()}</p>
     </footer>
   );
 }
