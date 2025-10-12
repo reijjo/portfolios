@@ -1,7 +1,27 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -10,73 +30,13 @@ body {
   margin: 0;
 }
 
-body {
-  min-height: 100dvh;
-  height: 100%;
-  width: 100%;
-  background: var(--gray-50);
-  font-size: 1rem;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
-:root {
-  --nav-height: 10svh;
-  --footer-height: 6svh;
-
-  /* Colors */
-  --primary: oklab(87.857% 0.02944 0.072);
-  --primary-50: #fef7ee;
-  --primary-100: #fdecd7;
-  --primary-200: #facea0;
-  --primary-300: #f8b779;
-  --primary-400: #f38f44;
-  --primary-500: #f0701f;
-  --primary-600: #e15615;
-  --primary-700: #bb4013;
-  --primary-800: #953417;
-  --primary-900: #782d16;
-  --primary-950: #411409;
-
-  --secondary: #553062;
-  --secondary-50: #faf7fc;
-  --secondary-100: #f4edfa;
-  --secondary-200: #eadbf3;
-  --secondary-300: #dabee9;
-  --secondary-400: #c497db;
-  --secondary-500: #a96dc8;
-  --secondary-600: #8e4eab;
-  --secondary-700: #763e8d;
-  --secondary-800: #623474;
-  --secondary-900: #553062;
-  --secondary-950: #33153d;
-
-  --accent: #d082ac;
-  --accent-50: #faf5f8;
-  --accent-100: #f7ecf2;
-  --accent-200: #f1d9e7;
-  --accent-300: #e6bbd3;
-  --accent-400: #d082ac;
-  --accent-500: #c56f9a;
-  --accent-600: #b1517d;
-  --accent-700: #973f65;
-  --accent-800: #7e3654;
-  --accent-900: #6a3149;
-  --accent-950: #3f1829;
-
-  --gray-50: #fdfdfd;
-  --gray-100: #f9f9f9;
-  --gray-200: #f0f0f0;
-  --gray-300: #e8e8e8;
-  --gray-400: #e1e1e1;
-  --gray-500: #d9d9d9;
-  --gray-600: #cecece;
-  --gray-700: #bbb;
-  --gray-800: #8d8d8d;
-  --gray-900: #828282;
-  --gray-950: #636363;
-  --gray-999: #202020;
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
 }
