@@ -10,9 +10,7 @@
   }
 
   & a.active {
-    /* border-bottom: 1px solid black; */
     color: black;
-    /* font-weight: bold; */
 
     &:hover {
       color: black;
