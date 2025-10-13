@@ -1,0 +1,46 @@
+.mobile-nav-button {
+  all: unset;
+  cursor: pointer;
+
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  @media (min-width: 901px) {
+    display: none;
+  }
+}
+
+.mobile-nav-menu {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: calc(100dvh - var(--nav-height));
+
+  position: fixed;
+  top: var(--nav-height);
+  right: 0;
+  z-index: 5;
+  backdrop-filter: blur(0.825rem);
+  background: rgba(241, 217, 231, 0.5);
+
+  padding: 2rem;
+  overflow: hidden;
+
+  transform: translateY(-100%);
+  opacity: 0;
+
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.75s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-nav-menu-open {
+  transform: translateY(0);
+  opacity: 1;
+}
