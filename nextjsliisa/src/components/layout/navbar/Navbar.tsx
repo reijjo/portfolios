@@ -26,14 +26,14 @@ export default function Navbar() {
           </Link>
           <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
           <div className="desktop-nav">
-            <NavLinks />
+            <NavLinks setIsOpen={setIsOpen} />
           </div>
         </div>
       </nav>
       <div
         className={`mobile-nav-menu ${isOpen ? "mobile-nav-menu-open" : ""}`}
       >
-        <NavLinks />
+        <NavLinks setIsOpen={setIsOpen} />
       </div>
     </>
   );
