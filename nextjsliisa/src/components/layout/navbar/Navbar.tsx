@@ -11,8 +11,6 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const isMobile = useBreakpoint(900);
 
-  console.log(isOpen);
-
   useEffect(() => {
     if (!isMobile) {
       setIsOpen(false);
