@@ -46,6 +46,8 @@ a {
   --nav-height: 10svh;
   --footer-height: 6svh;
 
+  --text: black;
+
   /* Colors */
   --primary: oklab(87.857% 0.02944 0.072);
   --primary-50: #fef7ee;
