@@ -4,7 +4,11 @@ import "./NavLinks.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function NavLinks() {
+type NavLinksProps = {
+  setIsOpen: (isOpen: boolean) => void;
+};
+
+export default function NavLinks({ setIsOpen }: NavLinksProps) {
   const pathname = usePathname();
 
   const navLinks = [
@@ -20,7 +24,11 @@ export default function NavLinks() {
     <ul className="nav-links">
       {navLinks.map((link) => (
         <li key={link.to}>
-          <Link href={link.to} className={pathname === link.to ? "active" : ""}>
+          <Link
+            href={link.to}
+            className={pathname === link.to ? "active" : ""}
+            onClick={() => setIsOpen(false)}
+          >
             {link.label}
           </Link>
         </li>

@@ -27,7 +27,7 @@
   top: var(--nav-height);
   right: 0;
   z-index: 5;
-  backdrop-filter: blur(0.825rem);
+  backdrop-filter: blur(0.975rem);
   background: rgba(241, 217, 231, 0.5);
 
   padding: 2rem;
