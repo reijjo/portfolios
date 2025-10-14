@@ -19,8 +19,8 @@ export default function HeroSection() {
           alt="Luisa Lore"
           title="Luisa Lore"
           className="hero-img mobile-img"
-          width={720}
-          height={480}
+          width={480}
+          height={720}
           priority
         />
       </div>
