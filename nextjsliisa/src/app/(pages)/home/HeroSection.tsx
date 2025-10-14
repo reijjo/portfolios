@@ -9,7 +9,7 @@ export default function HeroSection() {
           src="/images/landing/Liisa-5-4.jpg"
           alt="Luisa Lore"
           title="Luisa Lore"
-          className="hero-img desktop-img"
+          className="desktop-img"
           width={800}
           height={600}
           priority
@@ -18,7 +18,7 @@ export default function HeroSection() {
           src="/images/landing/Liisa-9-16.jpg"
           alt="Luisa Lore"
           title="Luisa Lore"
-          className="hero-img mobile-img"
+          className="mobile-img"
           width={480}
           height={720}
           priority
