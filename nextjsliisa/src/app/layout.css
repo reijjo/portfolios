@@ -7,6 +7,8 @@
 
 .layout {
   display: grid;
-  grid-template-rows: var(--nav-height) 1fr auto;
+  grid-template-rows: 1fr auto;
   min-height: 100dvh;
+  position: relative;
+  padding-top: var(--nav-height);
 }

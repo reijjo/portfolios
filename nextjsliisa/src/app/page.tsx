@@ -1,8 +1,9 @@
+import HeroSection from "@/app/(pages)/home/HeroSection";
+
 export default function Home() {
   return (
     <main>
-      <h1>LIISA HOME</h1>
-      <p>mikä font</p>
+      <HeroSection />
     </main>
   );
 }
