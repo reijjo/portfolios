@@ -11,7 +11,10 @@
 
 .hero-image {
   aspect-ratio: 5/4;
-  width: 100%;
+  width: min(100%, 1000px);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-s);
 }
 
 .desktop-img,
@@ -38,6 +41,7 @@
 
   .hero-image {
     aspect-ratio: 9/16;
+    border-radius: 0;
   }
 
   .desktop-img {

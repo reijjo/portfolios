@@ -46,6 +46,11 @@ a {
   --nav-height: 10svh;
   --footer-height: 6svh;
 
+  --shadow-s: 0 0.5rem 1rem rgba(0, 0, 0, 0.125),
+    0 1rem 2rem rgba(0, 0, 0, 0.075), 0 2rem 4rem rgba(0, 0, 0, 0.025);
+  --shadow-m: 0 0.5rem 1rem rgba(0, 0, 0, 0.25),
+    0 1rem 2rem rgba(0, 0, 0, 0.175), 0 2rem 4rem rgba(0, 0, 0, 0.075);
+
   --text: black;
 
   /* Colors */
