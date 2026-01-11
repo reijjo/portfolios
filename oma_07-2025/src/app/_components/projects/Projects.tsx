@@ -6,6 +6,17 @@ import ProjectInfo from "./ProjectInfo";
 export const Projects = () => {
   const sneakPeeks = [
     {
+      id: "ropsit",
+      title: "Ropsit",
+      description: "NBA player props for sports betting / fantasy sports",
+      techStack: ["SvelteKit", "TypeScript", "Rust", "Axum", "Python", "CSS"],
+      image: {
+        desktop: "/assets/images/projects/props/landing.png",
+        mobile: "/assets/images/projects/props/landing.png",
+      },
+      imageAlt: "Ropsit landing page",
+    },
+    {
       id: "tarpit",
       title: "Tärpit",
       description: "Sports bet tracking made simple",
