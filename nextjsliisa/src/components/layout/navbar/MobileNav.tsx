@@ -1,5 +1,6 @@
 import "./MobileNav.css";
 import { Menu, X } from "lucide-react";
+import NavLinks from "./NavLinks";
 
 type MobileNavProps = {
   isOpen: boolean;
@@ -8,6 +9,7 @@ type MobileNavProps = {
 
 export default function MobileNav({ isOpen, setIsOpen }: MobileNavProps) {
   return (
+		<>
     <button
       className="mobile-nav-button"
       type="button"
@@ -18,5 +20,11 @@ export default function MobileNav({ isOpen, setIsOpen }: MobileNavProps) {
     >
       {isOpen ? <X /> : <Menu />}
     </button>
+		    <div
+        className={`mobile-nav-menu ${isOpen ? "mobile-nav-menu-open" : ""}`}
+      >
+        <NavLinks setIsOpen={setIsOpen} />
+      </div>
+			</>
   );
 }

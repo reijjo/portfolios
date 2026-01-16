@@ -1,0 +1,14 @@
+header {
+  text-align: center;
+  padding-top: 1rem;
+
+  & h1 {
+    font-size: 4rem;
+    font-family: var(--font-lavish);
+    font-weight: 200;
+  }
+}
+
+.header-wrapper {
+  position: relative;
+}

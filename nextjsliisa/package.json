@@ -9,21 +9,10 @@
     "clean": "rm -rf .next && rm -rf node_modules && bun install"
   },
   "dependencies": {
-<<<<<<< HEAD
     "lucide-react": "^0.562.0",
     "next": "^16.1.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
-=======
-    "@fortawesome/fontawesome-svg-core": "^7.1.0",
-    "@fortawesome/free-brands-svg-icons": "^7.1.0",
-    "@fortawesome/free-regular-svg-icons": "^7.1.0",
-    "@fortawesome/free-solid-svg-icons": "^7.1.0",
-    "@fortawesome/react-fontawesome": "^3.1.0",
-    "next": "15.5.9",
-    "react": "19.2",
-    "react-dom": "19.2"
->>>>>>> f2015ec926551699293ac4a23007806de69443d0
   },
   "devDependencies": {
     "typescript": "^5.9.3",
