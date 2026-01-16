@@ -1,6 +1,5 @@
 import "./MobileNav.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { Menu, X } from "lucide-react";
 
 type MobileNavProps = {
   isOpen: boolean;
@@ -17,7 +16,7 @@ export default function MobileNav({ isOpen, setIsOpen }: MobileNavProps) {
       aria-expanded={isOpen}
       aria-controls="mobile-nav-menu"
     >
-      <FontAwesomeIcon icon={isOpen ? faX : faBars} size="lg" />
+      {isOpen ? <X /> : <Menu />}
     </button>
   );
 }

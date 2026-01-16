@@ -2,7 +2,6 @@
   display: flex;
   list-style: none;
   gap: 1rem;
-  font-weight: 500;
 
   & li {
     cursor: pointer;

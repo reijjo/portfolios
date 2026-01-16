@@ -2,12 +2,18 @@ import "./globals.css";
 import "./layout.css";
 import type { Metadata } from "next";
 import { Navbar, Footer } from "@/components/layout";
-import { Inter, Montserrat } from "next/font/google";
+import { Open_Sans, Libre_Baskerville, Lavishly_Yours } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const montserrat = Montserrat({
+const sans = Open_Sans({ subsets: ["latin"], variable: "--font-sans" });
+const baskerville = Libre_Baskerville({
+  weight: ["400"],
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-baskerville",
+});
+const lavish = Lavishly_Yours({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-lavish",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +27,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
+    <html
+      lang="en"
+      className={`${sans.variable} ${baskerville.variable} ${lavish.variable}`}
+    >
       <body>
         <div className="layout">
           <Navbar />
