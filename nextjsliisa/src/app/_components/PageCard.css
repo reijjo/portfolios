@@ -1,0 +1,40 @@
+.page-card {
+  height: 100%;
+  width: 100%;
+  /* box-shadow: var(--shadow-xs); */
+  /* border-radius: 0.5rem; */
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 1/1;
+}
+
+.page-card-img {
+  position: relative;
+  /* height: 40svh; */
+  height: 100%;
+
+  & h2 {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1rem;
+    color: white;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+}
+
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* .page-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+} */

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="wrapper">
-        <p>&copy; {new Date().getFullYear()} Repe</p>
+        <p>&copy; {new Date().getFullYear()} Luisa Lore</p>
       </div>
     </footer>
   );

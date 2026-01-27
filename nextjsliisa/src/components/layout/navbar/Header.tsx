@@ -1,4 +1,4 @@
-import MobileNav from "./MobileNav";
+import MobileNav from "./navbars/MobileNav";
 import "./Header.css";
 
 type HeaderProps = {

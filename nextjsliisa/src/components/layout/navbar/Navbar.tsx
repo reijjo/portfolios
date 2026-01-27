@@ -2,7 +2,7 @@
 
 import { Activity, useEffect, useState } from "react";
 import { useBreakpoint } from "@/hooks/useBreakpoint";
-import DesktopNav from "./DesktopNav";
+import DesktopNav from "./navbars/DesktopNav";
 import Header from "./Header";
 
 export default function Navbar() {

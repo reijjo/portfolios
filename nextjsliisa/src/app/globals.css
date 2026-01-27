@@ -1,9 +1,9 @@
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
     color: black !important;
     background: var(--gray-50) !important;
   }
-}
+} */
 
 html,
 body {
@@ -21,10 +21,17 @@ body {
   min-height: 100dvh;
   height: 100%;
   width: 100%;
-  background: var(--gray-50);
   font-size: 1rem;
   font-family: var(--font-baskerville), sans-serif;
   color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2rem;
+  padding-bottom: 3rem;
 }
 
 h1,
@@ -42,15 +49,24 @@ a {
   font-family: var(--font-sans), sans-serif;
 }
 
+button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
 :root {
   --nav-height: 10svh;
   --footer-height: 6svh;
 
-  --shadow-xs: 0 4px 12px rgba(0, 0, 0, 0.1);
-  --shadow-s: 0 0.5rem 1rem rgba(0, 0, 0, 0.125),
-    0 1rem 2rem rgba(0, 0, 0, 0.075), 0 2rem 4rem rgba(0, 0, 0, 0.025);
-  --shadow-m: 0 0.5rem 1rem rgba(0, 0, 0, 0.25),
-    0 1rem 2rem rgba(0, 0, 0, 0.175), 0 2rem 4rem rgba(0, 0, 0, 0.075);
+  --shadow-xs:
+    0 0.5rem 1rem rgba(0, 0, 0, 0.1), 0 1rem 2rem rgba(0, 0, 0, 0.05);
+  --shadow-s:
+    0 0.5rem 1rem rgba(0, 0, 0, 0.125), 0 1rem 2rem rgba(0, 0, 0, 0.075),
+    0 2rem 4rem rgba(0, 0, 0, 0.025);
+  --shadow-m:
+    0 0.5rem 1rem rgba(0, 0, 0, 0.25), 0 1rem 2rem rgba(0, 0, 0, 0.175),
+    0 2rem 4rem rgba(0, 0, 0, 0.075);
 
   --text: black;
 
