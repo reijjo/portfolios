@@ -1,0 +1,34 @@
+.image-with-credits {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.show-kuvaaja {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  bottom: 8px;
+  right: 8px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.image-credits,
+.show-kuvaaja {
+  color: white;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 0.825rem;
+  font-weight: 500;
+}
+
+.image-credits {
+  padding: 4px 8px;
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+}
+
+[popover] {
+  position-area: top left;
+  margin: initial;
+}

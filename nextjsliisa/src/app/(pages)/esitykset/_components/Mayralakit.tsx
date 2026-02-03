@@ -1,4 +1,6 @@
+import Image from "next/image";
 import "./Esitys.css";
+import ImageWithCredits from "@/components/images/ImageWithCredits";
 
 type MayralakitProps = {
   active: boolean;
@@ -8,7 +10,11 @@ export default function Mayralakit({ active }: MayralakitProps) {
   return (
     <section className={`${active ? "esitys-section" : "hide-section"}`}>
       <h1>Mäyrälakit</h1>
-      <div className="jokukuva">joku kuva</div>
+      <ImageWithCredits
+        src="/images/mayralakit/saunassa-sami_virtanen.jpeg"
+        alt="Mäyrälakit saunassa"
+        credits="Sami Virtanen"
+      />
       <p>
         Mäyrälakit on noin kahdeksan jäsenen muodostama yhtye, joka esittää itse
         säveltämäänsä ja suomeksi sanoittamaansa kevyttä laulu- ja
