@@ -12,7 +12,11 @@ export default function Spektri({ active }: SpektriProps) {
       <div className="esitys-header">
         <h1>Valosirkus Spektri</h1>
         <div className="esitys-links">
-          <a href="https://www.valosirkusspektri.fi/" target="_blank">
+          <a
+            href="https://www.valosirkusspektri.fi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/icons/link.svg"
               alt="Link icon"
@@ -21,7 +25,11 @@ export default function Spektri({ active }: SpektriProps) {
             />
             <p>Valosirkus Spektri</p>
           </a>
-          <a href="https://www.instagram.com/valosirkusspektri" target="_blank">
+          <a
+            href="https://www.instagram.com/valosirkusspektri"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/icons/ig.svg"
               alt="Instagram logo"

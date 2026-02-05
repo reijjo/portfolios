@@ -15,6 +15,7 @@ export default function Mayralakit({ active }: MayralakitProps) {
           <a
             href="https://open.spotify.com/artist/34En99VGBVc5hlfYJXbp27?si=41MmFRSNT1eQHwX8Qscrdg&nd=1&dlsi=064a3fddf86440ff"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Image
               src="/icons/spotify.svg"
@@ -24,7 +25,11 @@ export default function Mayralakit({ active }: MayralakitProps) {
             />
             <p>mäyrälakit</p>
           </a>
-          <a href="https://www.instagram.com/mayralakit" target="_blank">
+          <a
+            href="https://www.instagram.com/mayralakit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/icons/ig.svg"
               alt="Instagram logo"
