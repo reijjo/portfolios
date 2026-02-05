@@ -45,15 +45,19 @@ export default function Spektri({ active }: SpektriProps) {
         alt="Liisa"
         credits="Sauli Ketola"
       />
-      <p className="esitys-text">
-        Olemme Valosirkus Spektri Helsingistä ja intohimonamme on tanssi
-        erilaisilla led-välineillä! Esitämme uusia ihastusta ja ihmetystä
-        herättäviä itsetekemiämme koreografioita mm. vanteille, siiville,
-        viuhkoille, piiskoille, naruille, palloille, tikuille ja luomme
-        musiikkiin vauhdikkaita esityskomboja, joissa välineet vaihtuu. Välillä
-        rauhoitumme hitaampien melodioiden äärelle viipyillen joissain
-        kauniissa.
-      </p>
+      <div className="esitys-container">
+        <p className="esitys-text">
+          Olemme Valosirkus Spektri Helsingistä ja intohimonamme on tanssi
+          erilaisilla led-välineillä!
+        </p>
+        <p className="esitys-text">
+          Esitämme uusia ihastusta ja ihmetystä herättäviä itsetekemiämme
+          koreografioita mm. vanteille, siiville, viuhkoille, piiskoille,
+          naruille, palloille, tikuille ja luomme musiikkiin vauhdikkaita
+          esityskomboja, joissa välineet vaihtuu. Välillä rauhoitumme hitaampien
+          melodioiden äärelle viipyillen joissain kauniissa.
+        </p>
+      </div>
       <div className="esitys-grid">
         <ImageWithCredits
           src="/images/spektri/viuhkat-ahti_kannisto.jpeg"
