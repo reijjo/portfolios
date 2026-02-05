@@ -1,22 +1,32 @@
 .image-with-credits {
+  width: 100%;
+}
+
+.image-wrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+
+  @media (min-width: 870px) {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    min-height: 500px;
+  }
 }
 
 .show-kuvaaja {
   position: absolute;
-  display: grid;
-  place-items: center;
-  bottom: 4px;
+  bottom: 8px;
   right: 4px;
   padding: 4px;
   border-radius: 50%;
-}
-
-.image-credits,
-.show-kuvaaja {
   color: white;
+  display: grid;
+  place-items: center;
   background: rgba(0, 0, 0, 0.5);
   font-size: 0.825rem;
   font-weight: 500;
@@ -24,9 +34,14 @@
 
 .image-credits {
   padding: 4px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
   border-radius: 4px;
   backdrop-filter: blur(8px);
   font-size: 0.75rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
 }
 
 [popover] {

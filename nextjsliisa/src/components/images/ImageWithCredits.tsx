@@ -21,16 +21,25 @@ export default function ImageWithCredits({
 
   return (
     <div className="image-with-credits">
-      <Image src={src} alt={alt} fill sizes="(max-width: 768px) 100vw, 50vw" />
-      <button
-        type="button"
-        aria-label="Näytä kuvaaja"
-        popoverTarget={popoverId}
-        popoverTargetAction="show"
-        className="show-kuvaaja"
-      >
-        <Info size={16} />
-      </button>
+      <div className="image-wrapper">
+        <Image
+          src={src}
+          alt={alt}
+          width={1600}
+          height={900}
+          sizes="(max-width: 768px) 100vw, 50vw"
+          style={{ width: "100%", height: "auto" }}
+        />
+        <button
+          type="button"
+          aria-label="Näytä kuvaaja"
+          popoverTarget={popoverId}
+          popoverTargetAction="show"
+          className="show-kuvaaja"
+        >
+          <Info size={16} />
+        </button>
+      </div>
       <p popover="auto" id={popoverId} className="image-credits">
         Kuva: {credits}
       </p>
