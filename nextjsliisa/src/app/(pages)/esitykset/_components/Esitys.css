@@ -15,6 +15,16 @@
   }
 }
 
+.esitys-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  & h1 {
+    text-transform: uppercase;
+  }
+}
+
 .esitys-links {
   display: flex;
   gap: 1rem;

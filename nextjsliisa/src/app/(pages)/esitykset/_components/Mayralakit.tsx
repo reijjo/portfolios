@@ -10,7 +10,7 @@ export default function Mayralakit({ active }: MayralakitProps) {
   return (
     <section className={`${active ? "esitys-section" : "hide-section"}`}>
       <div className="esitys-header">
-        <h1>Mäyrälakit</h1>
+        <h1 className="text-center">Mäyrälakit</h1>
         <div className="esitys-links">
           <a
             href="https://open.spotify.com/artist/34En99VGBVc5hlfYJXbp27?si=41MmFRSNT1eQHwX8Qscrdg&nd=1&dlsi=064a3fddf86440ff"

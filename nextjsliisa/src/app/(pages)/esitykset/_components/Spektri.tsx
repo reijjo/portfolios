@@ -10,7 +10,7 @@ export default function Spektri({ active }: SpektriProps) {
   return (
     <section className={`${active ? "esitys-section" : "hide-section"}`}>
       <div className="esitys-header">
-        <h1>Valosirkus Spektri</h1>
+        <h1 className="text-center">Valosirkus Spektri</h1>
         <div className="esitys-links">
           <a
             href="https://www.valosirkusspektri.fi/"
