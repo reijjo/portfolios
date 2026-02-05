@@ -8,8 +8,8 @@
   position: absolute;
   display: grid;
   place-items: center;
-  bottom: 8px;
-  right: 8px;
+  bottom: 4px;
+  right: 4px;
   padding: 4px;
   border-radius: 50%;
 }
@@ -17,7 +17,7 @@
 .image-credits,
 .show-kuvaaja {
   color: white;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.5);
   font-size: 0.825rem;
   font-weight: 500;
 }
@@ -26,6 +26,7 @@
   padding: 4px 8px;
   border-radius: 4px;
   backdrop-filter: blur(8px);
+  font-size: 0.75rem;
 }
 
 [popover] {
