@@ -45,7 +45,7 @@ export default function Spektri({ active }: SpektriProps) {
         alt="Liisa"
         credits="Sauli Ketola"
       />
-      <p>
+      <p className="esitys-text">
         Olemme Valosirkus Spektri Helsingistä ja intohimonamme on tanssi
         erilaisilla led-välineillä! Esitämme uusia ihastusta ja ihmetystä
         herättäviä itsetekemiämme koreografioita mm. vanteille, siiville,
@@ -67,12 +67,12 @@ export default function Spektri({ active }: SpektriProps) {
         />
       </div>
       <div className="esitys-container">
-        <p>
+        <p className="esitys-text">
           Esiinnymme päivän tai öin, mutta vain pimeässä esityksen saa
           loistamaan kaikissa sateenkaaren väreissä, ja valokarnevaali pääsee
           täyteen voimaansa.
         </p>
-        <p>
+        <p className="esitys-text">
           Erilaiset tilaisuudet festarilavoista kaduille ja toreille, bileistä
           päiväkoteihin, Asunnottomien yöstä Helsingin yliopiston saliin, sekä
           kaupallisista toimijoista, yksityistilaisuuksiin, ja alakulttuurien
@@ -91,6 +91,8 @@ export default function Spektri({ active }: SpektriProps) {
           alt="Laser"
           credits="Ahti Kannisto"
         />
+      </div>
+      <div className="esitys-grid">
         <ImageWithCredits
           src="/images/spektri/olympia-timo_salola.jpeg"
           alt="Valosirkus"
