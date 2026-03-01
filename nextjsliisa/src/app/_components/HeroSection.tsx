@@ -22,10 +22,11 @@ export default function HeroSection() {
           sizes="100vw"
         />
       </div>
-      <h1 className="sitaatti">
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima!"
-        -Reijjo
-      </h1>
+      <p className="sitaatti">
+        "Etsin samankaltaisuutta erilaisuudessa, taipuisaa keskiviivaa ja
+        pehmeää ydintä. Radikaalisti keskeneräisenä ja keskitiellä, kapinoin
+        kaikkea vastaan, etsien kuitenkin kotia."
+      </p>
     </section>
   );
 }

@@ -6,6 +6,10 @@ header {
     font-size: 4rem;
     font-family: var(--font-lavish);
     font-weight: 200;
+
+    @media screen and (width <= 580px) {
+      font-size: 3rem;
+    }
   }
 }
 

@@ -108,10 +108,10 @@ export default function Spektri({ active }: SpektriProps) {
           credits="Nalle Elmgren"
         />
       </div>
-      <h2 className="text-center">
+      <div className="sitaatti">
         Me rakastamme sitä mitä teemme, ja tuommekin mukanamme sanoman ilosta ja
         hauskanpidosta!
-      </h2>
+      </div>
     </section>
   );
 }
