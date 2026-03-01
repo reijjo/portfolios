@@ -1,12 +1,21 @@
 .hero-section {
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  padding: 1rem 2rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
+
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--accent-100) 10%,
+    var(--accent-200) 30%,
+    var(--accent-50) 80%,
+    transparent 100%
+  );
 }
 
 .hero-image {
@@ -16,6 +25,8 @@
   max-height: calc(100vh - var(--nav-height));
   border-radius: 4px;
   overflow: hidden;
+
+  /* box-shadow: 0 4px 8px rgb(0 0 0 / 25%); */
 }
 
 .desktop-img,
@@ -25,12 +36,6 @@
 
 .mobile-img {
   display: none;
-}
-
-.sitaatti {
-  text-wrap: balance;
-  text-align: center;
-  max-width: 800px;
 }
 
 @media (max-width: 580px) {
@@ -55,6 +60,6 @@
   }
 
   .sitaatti {
-    padding: 0 1.5rem 2rem;
+    font-size: 1rem;
   }
 }

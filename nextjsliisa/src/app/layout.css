@@ -16,3 +16,12 @@
   position: relative;
   background-color: var(--gray-50);
 }
+
+.sitaatti {
+  text-wrap: balance;
+  text-align: center;
+  font-size: 1.5rem;
+  max-width: 1000px;
+  font-family: var(--font-baskerville);
+  padding: 0 1.5rem 1.5rem;
+}
