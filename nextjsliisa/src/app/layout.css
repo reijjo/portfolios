@@ -24,4 +24,20 @@
   max-width: 1000px;
   font-family: var(--font-baskerville);
   padding: 0 1.5rem 1.5rem;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.125rem;
+  }
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  & h1 {
+    text-transform: uppercase;
+    text-align: center;
+    text-wrap: balance;
+  }
 }

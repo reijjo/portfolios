@@ -50,6 +50,7 @@
 
 .esitys-text {
   font-size: 1.125rem;
+  text-wrap: balance;
 }
 
 .esitys-grid {

@@ -1,6 +1,6 @@
 header {
   text-align: center;
-  padding-top: 1rem;
+  padding-block: 1rem;
 
   & h1 {
     font-size: 4rem;

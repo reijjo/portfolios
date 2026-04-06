@@ -2,9 +2,9 @@ footer {
   height: 100%;
   height: max-content;
   background: linear-gradient(
-    to right,
-    var(--accent-200) 0%,
-    var(--accent-300) 100%
+    to bottom right,
+    var(--accent-100) 0%,
+    var(--accent-200) 100%
   );
   border-top: 1px solid rgb(0 0 0 / 12.5%);
   display: flex;
