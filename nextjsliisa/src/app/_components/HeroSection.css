@@ -8,14 +8,14 @@
   align-items: center;
   gap: 2rem;
 
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     transparent 0%,
     var(--accent-100) 10%,
     var(--accent-200) 30%,
     var(--accent-50) 80%,
     transparent 100%
-  );
+  ); */
 }
 
 .hero-image {
@@ -57,9 +57,5 @@
 
   .mobile-img {
     display: block;
-  }
-
-  .sitaatti {
-    font-size: 1rem;
   }
 }

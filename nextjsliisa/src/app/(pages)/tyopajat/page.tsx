@@ -1,7 +1,9 @@
 export default function Tyopajat() {
   return (
     <main className="wrapper">
-      <h1>TYöPAJAT</h1>
+      <div className="page-header">
+        <h1>Canvas & Cocktails</h1>
+      </div>
     </main>
   );
 }
