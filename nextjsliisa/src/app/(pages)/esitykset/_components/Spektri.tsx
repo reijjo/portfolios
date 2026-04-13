@@ -45,6 +45,7 @@ export default function Spektri({ active }: SpektriProps) {
         alt="Liisa"
         credits="Sauli Ketola"
       />
+
       <div className="esitys-container">
         <p className="esitys-text">
           Olemme Valosirkus Spektri Helsingistä ja intohimonamme on tanssi
@@ -58,7 +59,7 @@ export default function Spektri({ active }: SpektriProps) {
           melodioiden äärelle viipyillen joissain kauniissa.
         </p>
       </div>
-      <div className="esitys-grid">
+      <div className="image-grid">
         <ImageWithCredits
           src="/images/spektri/viuhkat-ahti_kannisto.jpeg"
           alt="Viuhkat"
@@ -84,7 +85,7 @@ export default function Spektri({ active }: SpektriProps) {
           vuodesta 2015 lähtien.
         </p>
       </div>
-      <div className="esitys-grid">
+      <div className="image-grid">
         <ImageWithCredits
           src="/images/spektri/kolmikko-chris_senn.jpeg"
           alt="Trio"
@@ -96,7 +97,7 @@ export default function Spektri({ active }: SpektriProps) {
           credits="Ahti Kannisto"
         />
       </div>
-      <div className="esitys-grid">
+      <div className="image-grid">
         <ImageWithCredits
           src="/images/spektri/olympia-timo_salola.jpeg"
           alt="Valosirkus"

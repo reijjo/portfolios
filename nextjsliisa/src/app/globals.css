@@ -24,6 +24,7 @@ main {
   flex-direction: column;
   flex-grow: 1;
   gap: 2rem;
+  padding-bottom: 2rem;
 }
 
 h1,
@@ -53,8 +54,6 @@ button {
 }
 
 :root {
-  --nav-height: 10svh;
-
   --shadow-xs:
     0 0.5rem 1rem rgba(0, 0, 0, 0.1), 0 1rem 2rem rgba(0, 0, 0, 0.05);
   --shadow-s:
