@@ -41,7 +41,7 @@
   right: 0;
   z-index: 15;
   backdrop-filter: blur(0.975rem);
-  background: rgb(from var(--gray-50) r g b / 0.85);
+  background: rgb(from var(--primary-xxlight) r g b / 0.85);
 
   padding: 2rem;
   overflow: hidden;
