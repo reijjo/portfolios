@@ -20,13 +20,13 @@
     height: 100%;
 
     & h3:hover {
-      color: var(--accent-400);
+      color: var(--accent-dark);
     }
   }
 }
 
 .inactive-esitys {
-  background-color: var(--gray-200);
+  background-color: var(--primary-light);
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }

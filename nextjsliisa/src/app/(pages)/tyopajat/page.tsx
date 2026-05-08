@@ -11,9 +11,13 @@ export default function Tyopajat() {
             <h2>luovan maalauksen työpaja</h2>
           </div>
           <div className="page-links">
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.instagram.com/hotel.ax/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image src="/icons/ig.svg" alt="AX IG" width={16} height={16} />
-              <p>axin instagram sitten joo</p>
+              <p>hotel.ax</p>
             </a>
           </div>
         </div>

@@ -2,6 +2,7 @@ import "./globals.css";
 import "./layout.css";
 import type { Metadata } from "next";
 import { Navbar, Footer } from "@/components/layout";
+import ScrollToTop from "@/components/layout/ScrollToTop";
 import { Open_Sans, Libre_Baskerville, Lavishly_Yours } from "next/font/google";
 
 const sans = Open_Sans({ subsets: ["latin"], variable: "--font-sans" });
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body>
         <div className="layout">
           <Navbar />
+          <ScrollToTop />
           {children}
           <Footer />
         </div>
