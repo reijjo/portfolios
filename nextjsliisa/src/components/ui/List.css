@@ -1,0 +1,10 @@
+.basic-list {
+  font-weight: 700;
+  padding-inline: 1rem;
+
+  & li {
+    text-wrap: balance;
+    list-style-position: inside;
+    padding-block: 1px;
+  }
+}

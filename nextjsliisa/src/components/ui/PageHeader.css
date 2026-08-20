@@ -1,0 +1,29 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  & h1,
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    text-wrap: balance;
+  }
+}
+
+.page-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+  & a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+
+    &:hover {
+      color: var(--accent-dark);
+    }
+  }
+}

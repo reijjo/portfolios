@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./Esitys.css";
 import ImageWithCredits from "@/components/images/ImageWithCredits";
+import PageHeader from "@/components/ui/PageHeader";
 
 type MayralakitProps = {
   active: boolean;
@@ -9,37 +10,23 @@ type MayralakitProps = {
 export default function Mayralakit({ active }: MayralakitProps) {
   return (
     <section className={`${active ? "esitys-section" : "hide-section"}`}>
-      <div className="page-header">
-        <h1>Mäyrälakit</h1>
-        <div className="esitys-links">
-          <a
-            href="https://open.spotify.com/artist/34En99VGBVc5hlfYJXbp27?si=41MmFRSNT1eQHwX8Qscrdg&nd=1&dlsi=064a3fddf86440ff"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/icons/spotify.svg"
-              alt="Spotify logo"
-              width={16}
-              height={16}
-            />
-            <p>mäyrälakit</p>
-          </a>
-          <a
-            href="https://www.instagram.com/mayralakit"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/icons/ig.svg"
-              alt="Instagram logo"
-              width={16}
-              height={16}
-            />
-            <p>mayralakit</p>
-          </a>
-        </div>
-      </div>
+      <PageHeader
+        mainTitle="Mäyrälakit"
+        pageLinks={[
+          {
+            href: "https://open.spotify.com/artist/34En99VGBVc5hlfYJXbp27?si=41MmFRSNT1eQHwX8Qscrdg&nd=1&dlsi=064a3fddf86440ff",
+            text: "mäyrälakit",
+            iconSrc: "/icons/spotify.svg",
+            iconAlt: "Spotify logo",
+          },
+          {
+            href: "https://www.instagram.com/mayralakit",
+            text: "mayralakit",
+            iconSrc: "/icons/ig.svg",
+            iconAlt: "Instagram logo",
+          },
+        ]}
+      />
       <ImageWithCredits
         src="/images/mayralakit/saunassa-sami_virtanen.jpeg"
         alt="Mäyrälakit saunassa"

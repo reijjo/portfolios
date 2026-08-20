@@ -1,3 +1,4 @@
+import Sitaatti from "@/components/ui/Sitaatti";
 import "./HeroSection.css";
 import Image from "next/image";
 
@@ -22,11 +23,11 @@ export default function HeroSection() {
           sizes="100vw"
         />
       </div>
-      <p className="sitaatti">
-        "Etsin samankaltaisuutta erilaisuudessa, taipuisaa keskiviivaa ja
+      <Sitaatti
+        text='"Etsin samankaltaisuutta erilaisuudessa, taipuisaa keskiviivaa ja
         pehmeää ydintä. Radikaalisti keskeneräisenä ja keskitiellä, kapinoin
-        kaikkea vastaan, etsien kuitenkin kotia."
-      </p>
+        kaikkea vastaan, etsien kuitenkin kotia."'
+      />
     </section>
   );
 }

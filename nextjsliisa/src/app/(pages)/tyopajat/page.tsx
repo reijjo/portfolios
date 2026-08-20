@@ -1,26 +1,33 @@
+import ImageGrid from "@/components/images/ImageGrid";
 import ImageWrapper from "@/components/images/ImageWrapper";
-import Image from "next/image";
+import List from "@/components/ui/List";
+import PageHeader from "@/components/ui/PageHeader";
+import Sitaatti from "@/components/ui/Sitaatti";
+
+const listItems = [
+  "Työpajan kesto: 2,5 tuntia",
+  "Sijainti: AXravintola, Hotel AX, Välimerenkatu 18, Jätkäsaari, Helsinki",
+  "Hinta: 65 eur",
+  "Sis. ohjauksen, Canvas-taulupohjan 50 x 60 cm, tarvittavat akryylimaalit, ja maalausvälineet, Cocktail-juoman sekä alv 24%.",
+  "Lisätietoja: liisa.repo@hotel.ax",
+];
 
 export default function Tyopajat() {
   return (
     <main className="wrapper">
       <div className="page-section">
-        <div className="page-header">
-          <div className="double-header">
-            <h1>Canvas & Cocktails</h1>
-            <h2>luovan maalauksen työpaja</h2>
-          </div>
-          <div className="page-links">
-            <a
-              href="https://www.instagram.com/hotel.ax/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image src="/icons/ig.svg" alt="AX IG" width={16} height={16} />
-              <p>hotel.ax</p>
-            </a>
-          </div>
-        </div>
+        <PageHeader
+          mainTitle="Canvas & Cocktails"
+          subTitle="luovan maalauksen työpaja"
+          pageLinks={[
+            {
+              href: "https://www.instagram.com/hotel.ax/",
+              text: "hotel.ax",
+              iconSrc: "/icons/ig.svg",
+              iconAlt: "AX IG",
+            },
+          ]}
+        />
         <ImageWrapper src="/images/tyopaja/studiostyle.jpeg" alt="studio" />
         <div className="text-container">
           <p className="bigger-font">
@@ -39,10 +46,10 @@ export default function Tyopajat() {
             tyyliä ja ilmaisua sekä nauttia vapautuneesta tekemisestä.
           </p>
         </div>
-        <div className="image-grid">
+        <ImageGrid>
           <ImageWrapper src="/images/tyopaja/pari.jpeg" alt="pari" />
           <ImageWrapper src="/images/tyopaja/niina.jpeg" alt="action" />
-        </div>
+        </ImageGrid>
         <div className="text-container">
           <p className="bigger-font">
             Ohjaan osallistua maalauksen alkuun eikä aiempaa kokemusta tarvita.
@@ -52,25 +59,13 @@ export default function Tyopajat() {
             kotiin.
           </p>
         </div>
-        <div className="sitaatti">
-          Osallistuaksesi työpajaan tarvitset vain uskallusta heittäytyä uuden
+        <Sitaatti
+          text="Osallistuaksesi työpajaan tarvitset vain uskallusta heittäytyä uuden
           äärelle! Illan tavoitteena on nauttia luovuudesta ja tehdä teos, joka
-          on juuri sinun näköisesi – eli mestariteos!
-        </div>
+          on juuri sinun näköisesi – eli mestariteos!"
+        />
+        <List items={listItems} />
 
-        <ul>
-          <li>Työpajan kesto: 2,5 tuntia</li>
-          <li>
-            Sijainti: AXravintola, Hotel AX, Välimerenkatu 18, Jätkäsaari,
-            Helsinki
-          </li>
-          <li>Hinta: 65 eur</li>
-          <li>
-            Sis. ohjauksen, Canvas-taulupohjan 50 x 60 cm, tarvittavat
-            akryylimaalit, ja maalausvälineet, Cocktail-juomat sekä alv 24%.
-          </li>
-          <li>Lisätietoja: liisa.repo@hotel.ax</li>
-        </ul>
         <div className="image-grid">
           <ImageWrapper src="/images/tyopaja/lahi.jpeg" alt="lähikuva" />
           <ImageWrapper src="/images/tyopaja/kadet.jpeg" alt="sotkukädet" />

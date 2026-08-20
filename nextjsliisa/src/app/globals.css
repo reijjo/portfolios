@@ -65,6 +65,12 @@ button {
 
   --text: black;
 
+  --radius-xs: 2px;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 16px;
+  --radius-xl: 24px;
+
   /* Colors */
   --primary-50: #fdfdfd;
   --primary-100: #f9f9f9;

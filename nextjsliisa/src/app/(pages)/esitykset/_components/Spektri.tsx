@@ -1,6 +1,7 @@
 import ImageWithCredits from "@/components/images/ImageWithCredits";
 import "./Esitys.css";
 import Image from "next/image";
+import PageHeader from "@/components/ui/PageHeader";
 
 type SpektriProps = {
   active: boolean;
@@ -9,37 +10,23 @@ type SpektriProps = {
 export default function Spektri({ active }: SpektriProps) {
   return (
     <section className={`${active ? "esitys-section" : "hide-section"}`}>
-      <div className="esitys-header">
-        <h1 className="text-center">Valosirkus Spektri</h1>
-        <div className="esitys-links">
-          <a
-            href="https://www.valosirkusspektri.fi/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/icons/link.svg"
-              alt="Link icon"
-              width={16}
-              height={16}
-            />
-            <p>Valosirkus Spektri</p>
-          </a>
-          <a
-            href="https://www.instagram.com/valosirkusspektri"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/icons/ig.svg"
-              alt="Instagram logo"
-              width={16}
-              height={16}
-            />
-            <p>valosirkusspektri</p>
-          </a>
-        </div>
-      </div>
+      <PageHeader
+        mainTitle="Valosirkus Spektri"
+        pageLinks={[
+          {
+            href: "https://www.valosirkusspektri.fi/",
+            text: "Valosirkus Spektri",
+            iconSrc: "/icons/link.svg",
+            iconAlt: "Link icon",
+          },
+          {
+            href: "https://www.instagram.com/valosirkusspektri",
+            text: "valosirkusspektri",
+            iconSrc: "/icons/ig.svg",
+            iconAlt: "Instagram logo",
+          },
+        ]}
+      />
       <ImageWithCredits
         src="/images/spektri/taiteellista-sauli_ketola.jpeg"
         alt="Liisa"
