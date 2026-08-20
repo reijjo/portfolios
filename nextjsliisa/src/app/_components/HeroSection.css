@@ -16,14 +16,16 @@
   max-height: calc(100vh - var(--nav-height));
   overflow: hidden;
 
-  /* box-shadow:
-    0 4px 8px rgb(0 0 0 / 25%),
-    0 8px 16px rgb(0 0 0 / 12.5%); */
+  box-shadow: var(--shadow-xs);
 }
 
 .desktop-img,
 .mobile-img {
   object-fit: contain;
+}
+
+.desktop-img {
+  border-radius: var(--radius-s);
 }
 
 .mobile-img {
