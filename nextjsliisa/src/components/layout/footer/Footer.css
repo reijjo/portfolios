@@ -92,3 +92,7 @@ footer {
     }
   }
 }
+
+.footer-email {
+  font-family: var(--font-sans);
+}

@@ -43,7 +43,7 @@ export default function Footer() {
                 iconAlt="fb logo"
               />
               <p className="link-divider">|</p>
-              <p>repo.liisa@gmail.com</p>
+              <p className="footer-email">repo.liisa@gmail.com</p>
             </div>
           </div>
         </div>
