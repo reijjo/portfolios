@@ -1,6 +1,5 @@
 import ImageWithCredits from "@/components/images/ImageWithCredits";
 import "./Esitys.css";
-import Image from "next/image";
 import PageHeader from "@/components/ui/PageHeader";
 
 type SpektriProps = {

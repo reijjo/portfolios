@@ -1,0 +1,50 @@
+.image-with-caption {
+  width: min(100%, 400px);
+  margin: 0;
+
+  width: 100%;
+  padding-block: 5rem;
+  display: flex;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--gray-950);
+  }
+
+  &:first-child {
+    padding-top: 1rem;
+  }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}
+
+.image-with-caption img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4rem;
+
+  & h2 {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 1000px) {
+    padding: 2rem 0 0 0;
+    gap: 1rem;
+  }
+}
+
+.koko {
+  color: var(--gray-950);
+}
+
+.tekniikka {
+  font-size: 1.125rem;
+}

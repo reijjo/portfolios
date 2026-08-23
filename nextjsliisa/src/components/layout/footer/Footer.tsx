@@ -1,25 +1,20 @@
-import Link from "next/link";
 import "./Footer.css";
+import SomeLink from "@/components/ui/SomeLink";
 
-const navLinks = [
-  { to: "/", label: "Etusivu" },
-  { to: "/taide", label: "Taide" },
-  { to: "/tyopajat", label: "Työpajat" },
-  { to: "/esitykset", label: "Esitykset" },
-  { to: "/bio", label: "Bio & CV" },
-];
+// const navLinks = [
+//   { to: "/", label: "Etusivu" },
+//   { to: "/taide", label: "Taide" },
+//   { to: "/tyopajat", label: "Työpajat" },
+//   { to: "/esitykset", label: "Esitykset" },
+//   { to: "/bio", label: "Bio & CV" },
+// ];
 
 export default function Footer() {
   return (
     <footer>
       <div className="wrapper footer-wrapper">
-        <p className="footer-copy">
-          &copy; {new Date().getFullYear()} Luisa Lore.
-        </p>
-
         <div className="footer-links">
           {/* <div className="link-section">
-            <h4>Linkit</h4>
             <ul>
               {navLinks.map((link) => (
                 <li className="link-section-item" key={link.to}>
@@ -30,10 +25,26 @@ export default function Footer() {
           </div> */}
 
           <div className="yhteystiedot" id="yhteystiedot">
-            <h4>Yhteystiedot</h4>
-            <p>ig</p>
-            <p>facebook</p>
-            <p>email@email.com</p>
+            <p className="footer-copy">
+              &copy; {new Date().getFullYear()} Luisa Lore.
+            </p>
+            <div className="contact-links">
+              <SomeLink
+                href="https://www.instagram.com/luisa.loreart/"
+                text="luisa.loreart"
+                iconSrc="/icons/ig.svg"
+                iconAlt="ig logo"
+              />
+              <p className="link-divider">|</p>
+              <SomeLink
+                href="https://www.facebook.com/luisa.lore111"
+                text="Luisa Lore"
+                iconSrc="/icons/fb.svg"
+                iconAlt="fb logo"
+              />
+              <p className="link-divider">|</p>
+              <p>repo.liisa@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>

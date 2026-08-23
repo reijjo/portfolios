@@ -1,0 +1,25 @@
+.who-am-i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: min(100%, 600px);
+
+  & image-wrapper {
+    width: auto;
+  }
+
+  & .image-wrapper img {
+    aspect-ratio: 9/16;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  & p {
+    font-weight: 600;
+    font-style: italic;
+    font-family: var(--font-sans);
+  }
+}
