@@ -1,10 +1,10 @@
 .basic-list {
-  font-weight: 700;
+  font-weight: 600;
   padding-inline: 1rem;
 
   & li {
     text-wrap: balance;
-    list-style-position: inside;
+    list-style-position: outside;
     padding-block: 1px;
   }
 }

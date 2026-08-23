@@ -23,6 +23,7 @@
   display: block;
   width: min(100%, 500px);
   height: auto;
+  z-index: 1;
 }
 
 .caption {
