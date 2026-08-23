@@ -26,7 +26,8 @@
   }
 }
 
-.page-section {
+.page-section,
+.bio-page {
   padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
@@ -37,6 +38,16 @@
   &:last-child {
     gap: 1.5rem;
   }
+}
+
+.bio-page,
+.taide-page {
+  gap: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.taide-page {
+  width: min(100%, 1000px);
 }
 
 .text-container {
@@ -54,12 +65,6 @@
   text-wrap: balance;
 }
 
-.bio-page {
-  & h1 {
-    text-transform: uppercase;
-  }
-}
-
 .placeholder {
   border: 1px solid black;
   width: 100%;
@@ -68,20 +73,4 @@
   place-items: center;
   box-shadow: var(--shadow-xs);
   min-height: 300px;
-}
-
-.who-am-i {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  width: min(100%, 600px);
-  align-self: center;
-
-  & p {
-    font-weight: 600;
-    font-style: italic;
-    font-family: var(--font-sans);
-  }
 }

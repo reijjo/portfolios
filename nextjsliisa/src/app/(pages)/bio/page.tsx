@@ -1,16 +1,10 @@
+import WhoAmI from "@/components/pages/bio/WhoAmI";
+
 export default function Bio() {
   return (
     <main className="wrapper bio-page">
       <h1 className="text-center">Kuka?</h1>
-      <div className="who-am-i">
-        <div className="placeholder">KUVA</div>
-        <p className="bigger-font text-center">
-          Olen Luisa Lore, Helsingissä asuva ja työskentelevä taiteilija.
-          Inspiroidun luovasta ilmaisusta ja mielen mystiikasta sekä
-          koristemaalausten estetiikasta ja haastan itseäni isoilla
-          seinämaalauksilla!{" "}
-        </p>{" "}
-      </div>
+      <WhoAmI />
       <p className="bigger-font">
         {" "}
         Taitelijana arvostan taiteessa kansanomaisuutta ja uskon taiteen

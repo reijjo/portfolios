@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "./ImageWithCredits.css";
+import "./ImageWrapper.css";
 
 type ImageWrapperProps = {
   src: string;
@@ -15,7 +15,6 @@ export default function ImageWrapper({ src, alt }: ImageWrapperProps) {
         width={1600}
         height={900}
         sizes="(max-width: 768px) 100vw, 50vw"
-        style={{ width: "100%", height: "auto" }}
       />
     </div>
   );

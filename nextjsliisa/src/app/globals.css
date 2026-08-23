@@ -26,6 +26,7 @@ main {
   flex-grow: 1;
   gap: 2rem;
   padding-bottom: 2rem;
+  /* background: radial-gradient(rgb(252, 218, 224), transparent 70%); */
 }
 
 h1,
