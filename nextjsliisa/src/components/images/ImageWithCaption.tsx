@@ -9,6 +9,7 @@ type ImageWithCaptionProps = {
   tekniikka?: string;
   width?: number;
   height?: number;
+  fetchPriority?: "high" | "low" | "auto";
 };
 
 export default function ImageWithCaption({
@@ -19,6 +20,7 @@ export default function ImageWithCaption({
   tekniikka = "akryyli ja munankuoret jne",
   width = 1200,
   height = 800,
+  fetchPriority,
 }: ImageWithCaptionProps) {
   return (
     <figure className="image-with-caption">
@@ -28,6 +30,7 @@ export default function ImageWithCaption({
         width={width}
         height={height}
         sizes="(max-width: 400px) 100vw, 400px"
+        fetchPriority={fetchPriority}
       />
 
       <figcaption className="caption">

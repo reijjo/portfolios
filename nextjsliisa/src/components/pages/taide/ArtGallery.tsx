@@ -137,12 +137,13 @@ const images = [
 export default function ArtGallery() {
   return (
     <section className="art-gallery">
-      {images.map((image) => (
+      {images.map((image, index) => (
         <ImageWithCaption
           key={image.src}
           src={image.src}
           alt={image.alt}
           title={image.title}
+          fetchPriority={index === 0 ? "high" : "auto"}
         />
       ))}
     </section>
