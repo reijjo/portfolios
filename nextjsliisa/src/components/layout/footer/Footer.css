@@ -63,7 +63,6 @@ footer {
 }
 
 .footer-copy {
-  padding-top: 1rem;
   width: 100%;
   color: rgba(0 0 0 / 50%);
 
@@ -72,6 +71,7 @@ footer {
     border-top: 1px solid rgba(0 0 0 / 25%);
     text-align: center;
     margin-top: 1rem;
+    padding-top: 1rem;
   }
 }
 
