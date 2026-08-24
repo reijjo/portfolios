@@ -13,6 +13,7 @@ export default function HeroSection() {
           fill
           priority
           sizes="(max-width: 580px) 100vw, 1000px"
+          fetchPriority="high"
         />
         <Image
           src="/images/landing/Liisa-9-16.webp"
@@ -21,6 +22,7 @@ export default function HeroSection() {
           fill
           priority
           sizes="100vw"
+          fetchPriority="high"
         />
       </div>
       <Sitaatti
