@@ -3,7 +3,7 @@ import WhoAmI from "@/components/pages/bio/WhoAmI";
 export default function Bio() {
   return (
     <main className="wrapper bio-page">
-      <h1 className="text-center">Kuka?</h1>
+      <h1 className="text-center">KUKA?</h1>
       <WhoAmI />
       <p className="bigger-font">
         {" "}

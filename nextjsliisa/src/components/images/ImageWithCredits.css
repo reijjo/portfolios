@@ -2,6 +2,24 @@
   width: 100%;
 }
 
+.credited-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.credited-image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-s);
+
+  @media (min-width: 870px) {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    min-height: 500px;
+  }
+}
+
 .show-kuvaaja {
   position: absolute;
   bottom: 8px;

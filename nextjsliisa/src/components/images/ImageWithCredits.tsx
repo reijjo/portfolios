@@ -10,25 +10,27 @@ type ImageWithCreditsProps = {
   src: string;
   alt: string;
   credits: string;
+  fetchPriority?: "high" | "low" | "auto" | undefined;
 };
 
 export default function ImageWithCredits({
   src,
   alt,
   credits,
+  fetchPriority = "auto",
 }: ImageWithCreditsProps) {
   const popoverId = useId();
 
   return (
     <div className="image-with-credits">
-      <div className="image-wrapper">
+      <div className="credited-image-wrapper">
         <Image
           src={src}
           alt={alt}
           width={1600}
           height={900}
           sizes="(max-width: 768px) 100vw, 50vw"
-          style={{ width: "100%", height: "auto" }}
+          fetchPriority={fetchPriority}
         />
         <button
           type="button"

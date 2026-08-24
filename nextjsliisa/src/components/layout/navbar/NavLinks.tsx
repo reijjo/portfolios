@@ -35,6 +35,11 @@ export default function NavLinks({ setIsOpen }: NavLinksProps) {
 
                 if (!isContactLink) {
                   window.scrollTo({ top: 0, behavior: "auto" });
+                } else {
+                  window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: "smooth",
+                  });
                 }
               }}
             >

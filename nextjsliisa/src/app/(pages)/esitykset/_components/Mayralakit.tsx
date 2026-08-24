@@ -1,7 +1,8 @@
-import Image from "next/image";
 import "./Esitys.css";
+
 import ImageWithCredits from "@/components/images/ImageWithCredits";
 import PageHeader from "@/components/ui/PageHeader";
+import ImageGrid from "@/components/images/ImageGrid";
 
 type MayralakitProps = {
   active: boolean;
@@ -28,7 +29,7 @@ export default function Mayralakit({ active }: MayralakitProps) {
         ]}
       />
       <ImageWithCredits
-        src="/images/mayralakit/saunassa-sami_virtanen.jpeg"
+        src="/images/mayralakit/saunassa-sami_virtanen.webp"
         alt="Mäyrälakit saunassa"
         credits="Sami Virtanen"
       />
@@ -41,7 +42,7 @@ export default function Mayralakit({ active }: MayralakitProps) {
         katkeransuloinen toivorikkaus.
       </p>
       <ImageWithCredits
-        src="/images/mayralakit/yleisoa-jonne_hytonen.jpeg"
+        src="/images/mayralakit/yleisoa-jonne_hytonen.webp"
         alt="Mäyrälakit bändikuva"
         credits="Jonne Hytönen"
       />
@@ -52,21 +53,21 @@ export default function Mayralakit({ active }: MayralakitProps) {
         kymmenvuotista taivaltaan juhlistava yhtye on palannut studioon
         tarkoituksenaan julkaista toinen pitkäsoitto vuoden 2026 aikana.
       </p>
-      <div className="image-grid">
+      <ImageGrid>
         <ImageWithCredits
-          src="/images/mayralakit/liisa_heikki-mikko_kuorelahti.jpeg"
+          src="/images/mayralakit/liisa_heikki-mikko_kuorelahti.webp"
           alt="Mäyrälakit keikalla"
           credits="Mikko Kuorelahti"
         />
         <ImageWithCredits
-          src="/images/mayralakit/liilat-mikko_kuorelahti.jpeg"
+          src="/images/mayralakit/liilat-mikko_kuorelahti.webp"
           alt="Mäyrälakit keikalla"
           credits="Mikko Kuorelahti"
         />
-      </div>
+      </ImageGrid>
 
       <ImageWithCredits
-        src="/images/mayralakit/hamara-riikka_arte.jpeg"
+        src="/images/mayralakit/hamara-riikka_arte.webp"
         alt="Mäyrälakit bändikuva ulkona"
         credits="Riikka Arte"
       />
