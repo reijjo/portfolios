@@ -12,7 +12,7 @@ export default function HeroSection() {
           className="desktop-img"
           fill
           priority
-          sizes="(max-width: 580px) 100vw, 1000px"
+          sizes="(max-width: 580px) 90vw, 1000px"
           fetchPriority="high"
         />
         <Image
