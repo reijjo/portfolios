@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section className="hero-section wrapper">
       <div className="hero-image">
         <Image
-          src="/images/landing/Liisa-5-4.jpg"
+          src="/images/landing/Liisa-5-4.webp"
           alt="Luisa Lore"
           className="desktop-img"
           fill
@@ -15,7 +15,7 @@ export default function HeroSection() {
           sizes="(max-width: 580px) 100vw, 1000px"
         />
         <Image
-          src="/images/landing/Liisa-9-16.jpg"
+          src="/images/landing/Liisa-9-16.webp"
           alt="Luisa Lore"
           className="mobile-img"
           fill

@@ -1,6 +1,8 @@
-import ImageWithCredits from "@/components/images/ImageWithCredits";
 import "./Esitys.css";
+import ImageWithCredits from "@/components/images/ImageWithCredits";
 import PageHeader from "@/components/ui/PageHeader";
+import ImageGrid from "@/components/images/ImageGrid";
+import Sitaatti from "@/components/ui/Sitaatti";
 
 type SpektriProps = {
   active: boolean;
@@ -27,9 +29,10 @@ export default function Spektri({ active }: SpektriProps) {
         ]}
       />
       <ImageWithCredits
-        src="/images/spektri/taiteellista-sauli_ketola.jpeg"
+        src="/images/spektri/taiteellista-sauli_ketola.webp"
         alt="Liisa"
         credits="Sauli Ketola"
+        fetchPriority="high"
       />
 
       <div className="esitys-container">
@@ -45,18 +48,18 @@ export default function Spektri({ active }: SpektriProps) {
           melodioiden äärelle viipyillen joissain kauniissa.
         </p>
       </div>
-      <div className="image-grid">
+      <ImageGrid>
         <ImageWithCredits
-          src="/images/spektri/viuhkat-ahti_kannisto.jpeg"
+          src="/images/spektri/viuhkat-ahti_kannisto.webp"
           alt="Viuhkat"
           credits="Ahti Kannisto"
         />
         <ImageWithCredits
-          src="/images/spektri/liisa-nalle_elmgren.jpeg"
+          src="/images/spektri/liisa-nalle_elmgren.webp"
           alt="Liisa"
           credits="Nalle Elmgren"
         />
-      </div>
+      </ImageGrid>
       <div className="esitys-container">
         <p className="esitys-text">
           Esiinnymme päivän tai öin, mutta vain pimeässä esityksen saa
@@ -71,34 +74,34 @@ export default function Spektri({ active }: SpektriProps) {
           vuodesta 2015 lähtien.
         </p>
       </div>
-      <div className="image-grid">
+      <ImageGrid>
         <ImageWithCredits
-          src="/images/spektri/kolmikko-chris_senn.jpeg"
+          src="/images/spektri/kolmikko-chris_senn.webp"
           alt="Trio"
           credits="Chris Senn"
         />
         <ImageWithCredits
-          src="/images/spektri/laser-ahti_kannisto.jpeg"
+          src="/images/spektri/laser-ahti_kannisto.webp"
           alt="Laser"
           credits="Ahti Kannisto"
         />
-      </div>
-      <div className="image-grid">
+      </ImageGrid>
+      <ImageGrid>
         <ImageWithCredits
-          src="/images/spektri/olympia-timo_salola.jpeg"
+          src="/images/spektri/olympia-timo_salola.webp"
           alt="Valosirkus"
           credits="Timo Salola"
         />
         <ImageWithCredits
-          src="/images/spektri/teltan_edessa-nalle_elmgren.jpeg"
+          src="/images/spektri/teltan_edessa-nalle_elmgren.webp"
           alt="Teltan edessä"
           credits="Nalle Elmgren"
         />
-      </div>
-      <div className="sitaatti">
-        Me rakastamme sitä mitä teemme, ja tuommekin mukanamme sanoman ilosta ja
-        hauskanpidosta!
-      </div>
+      </ImageGrid>
+      <Sitaatti
+        text="Me rakastamme sitä mitä teemme, ja tuommekin mukanamme sanoman ilosta ja
+        hauskanpidosta!"
+      />
     </section>
   );
 }

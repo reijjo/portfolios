@@ -28,7 +28,11 @@ export default function Tyopajat() {
             },
           ]}
         />
-        <ImageWrapper src="/images/tyopaja/studiostyle.jpeg" alt="studio" />
+        <ImageWrapper
+          src="/images/tyopaja/studiostyle.webp"
+          alt="studio"
+          fetchPriority="high"
+        />
         <div className="text-container">
           <p className="bigger-font">
             Järjestämme yhteistyössä Taidehotelli AX:in kanssa Canvas &
@@ -47,8 +51,8 @@ export default function Tyopajat() {
           </p>
         </div>
         <ImageGrid>
-          <ImageWrapper src="/images/tyopaja/pari.jpeg" alt="pari" />
-          <ImageWrapper src="/images/tyopaja/niina.jpeg" alt="action" />
+          <ImageWrapper src="/images/tyopaja/pari.webp" alt="pari" />
+          <ImageWrapper src="/images/tyopaja/niina.webp" alt="action" />
         </ImageGrid>
         <div className="text-container">
           <p className="bigger-font">
@@ -67,8 +71,8 @@ export default function Tyopajat() {
         <List items={listItems} />
 
         <div className="image-grid">
-          <ImageWrapper src="/images/tyopaja/lahi.jpeg" alt="lähikuva" />
-          <ImageWrapper src="/images/tyopaja/kadet.jpeg" alt="sotkukädet" />
+          <ImageWrapper src="/images/tyopaja/lahi.webp" alt="lähikuva" />
+          <ImageWrapper src="/images/tyopaja/kadet.webp" alt="sotkukädet" />
         </div>
       </div>
     </main>
