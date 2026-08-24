@@ -16,7 +16,8 @@ export default function NavLinks({ setIsOpen }: NavLinksProps) {
     { to: "/taide", label: "Taide" },
     { to: "/tyopajat", label: "Työpajat" },
     { to: "/esitykset", label: "Esitykset" },
-    { to: "/bio", label: "Bio & CV" },
+    { to: "/bio", label: "Bio" },
+    { to: "/cv", label: "CV" },
     { to: "#yhteystiedot", label: "Yhteystiedot" },
   ];
 
