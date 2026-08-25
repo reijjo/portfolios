@@ -29,9 +29,9 @@ export default function Mayralakit({ active }: MayralakitProps) {
         ]}
       />
       <ImageWithCredits
-        src="/images/mayralakit/saunassa-sami_virtanen.webp"
+        src="/images/mayralakit/laituri2.webp"
         alt="Mäyrälakit saunassa"
-        credits="Sami Virtanen"
+        credits="Mäyrälakit"
       />
       <p className="esitys-text">
         Mäyrälakit on noin kahdeksan jäsenen muodostama yhtye, joka esittää itse
@@ -41,11 +41,18 @@ export default function Mayralakit({ active }: MayralakitProps) {
         ja siinä tuoksuu lämpimät kesäyöt, himmeät kapakat ja elämän
         katkeransuloinen toivorikkaus.
       </p>
-      <ImageWithCredits
-        src="/images/mayralakit/yleisoa-jonne_hytonen.webp"
-        alt="Mäyrälakit bändikuva"
-        credits="Jonne Hytönen"
-      />
+      <ImageGrid>
+        <ImageWithCredits
+          src="/images/mayralakit/saunassa-sami_virtanen.webp"
+          alt="Mäyrälakit saunassa"
+          credits="Sami Virtanen"
+        />
+        <ImageWithCredits
+          src="/images/mayralakit/yleisoa-jonne_hytonen.webp"
+          alt="Mäyrälakit bändikuva"
+          credits="Jonne Hytönen"
+        />
+      </ImageGrid>
       <p className="esitys-text">
         Mäyrälakit on soittanut yhdessä vuodesta 2015 saakka, ja yhtyeen
         ensimmäinen levy ”Tanssi halki tavernan” julkaistiin vuonna 2021.
