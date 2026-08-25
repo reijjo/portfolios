@@ -1,3 +1,5 @@
+import ImageGrid from "@/components/images/ImageGrid";
+import ImageWrapper from "@/components/images/ImageWrapper";
 import WhoAmI from "@/components/pages/bio/WhoAmI";
 
 export default function Bio() {
@@ -19,10 +21,18 @@ export default function Bio() {
         värimaailma on kuin karkkia. Ne kutsuvat katselijansa tanssin
         pyörteisiin ja hulluttelemaan, joskus synkkienkin asioiden äärelle.
       </p>{" "}
-      <div className="image-grid">
-        <div className="placeholder">KUVA</div>
-        <div className="placeholder">KUVA</div>
-      </div>
+      <ImageGrid>
+        <ImageWrapper
+          src="/images/bio/pataliisa.webp"
+          alt="Pataässä"
+          extraClassName="ratio-9-16"
+        />
+        <ImageWrapper
+          src="/images/bio/kypara.webp"
+          alt="mina2"
+          extraClassName="ratio-9-16"
+        />
+      </ImageGrid>
       <p className="bigger-font">
         Merkityksellisiä alkusysäyksiä kuvien maailmaan ovat tuoneet henkiset ja
         hengelliset haasteet, taideterapia, kirjojen maailmat ja luonto.
@@ -34,11 +44,11 @@ export default function Bio() {
         Olen syntynyt Reisjärven pappilaan isoon perheeseen ja asunut eri
         puolilla suomea sekä ulkomailla mm. Moskovassa ja Detroitissa.
       </p>
-      <div className="image-grid bio-image-grid">
+      {/* <div className="image-grid bio-image-grid">
         <div className="placeholder">reisjärvi</div>
         <div className="placeholder">moskova</div>
         <div className="placeholder">detroit</div>
-      </div>
+      </div> */}
     </main>
   );
 }

@@ -44,6 +44,7 @@
 .taide-page {
   gap: 1.5rem;
   padding-bottom: 3rem;
+  max-width: 1000px;
 }
 
 .taide-page {
