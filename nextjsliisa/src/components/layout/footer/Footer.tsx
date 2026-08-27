@@ -1,5 +1,6 @@
 import "./Footer.css";
 import SomeLink from "@/components/ui/SomeLink";
+import Image from "next/image";
 
 // const navLinks = [
 //   { to: "/", label: "Etusivu" },
@@ -26,7 +27,7 @@ export default function Footer() {
 
           <div className="yhteystiedot" id="yhteystiedot">
             <p className="footer-copy">
-              &copy; {new Date().getFullYear()} Luisa Lore.
+              &copy; {new Date().getFullYear()} Luisa Lore
             </p>
             <div className="contact-links">
               <SomeLink
@@ -43,7 +44,16 @@ export default function Footer() {
                 iconAlt="fb logo"
               />
               <p className="link-divider">|</p>
-              <p className="footer-email">repo.liisa@gmail.com</p>
+
+              <a className="footer-email">
+                <Image
+                  src="/icons/mail.svg"
+                  alt="email logo"
+                  width={20}
+                  height={20}
+                />
+                <p>repo.liisa@gmail.com</p>
+              </a>
             </div>
           </div>
         </div>

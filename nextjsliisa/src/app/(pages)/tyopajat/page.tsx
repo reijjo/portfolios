@@ -56,11 +56,11 @@ export default function Tyopajat() {
         </ImageGrid>
         <div className="text-container">
           <p className="bigger-font">
-            Ohjaan osallistua maalauksen alkuun eikä aiempaa kokemusta tarvita.
-            Yhdessä Etsimme voimme myös etsiä keinoja maalauksen toteuttamiseen.
-            Lopullinen maalaus on esittävä tai absrakti taideteos, joka on
-            toteutettu vapaasti tai kuva-aiheen pohjalta ja sen saa mukaan
-            kotiin.
+            Ohjaan osallistujat maalauksen alkuun eikä aiempaa kokemusta
+            tarvita. Yhdessä voimme myös etsiä keinoja maalauksen
+            toteuttamiseen. Lopullinen maalaus on esittävä tai absrakti
+            taideteos, joka on toteutettu vapaasti tai kuva-aiheen pohjalta ja
+            sen saa mukaan kotiin.
           </p>
         </div>
         <Sitaatti

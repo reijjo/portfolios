@@ -95,4 +95,8 @@ footer {
 
 .footer-email {
   font-family: var(--font-sans);
+
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
 }
