@@ -16,8 +16,8 @@ export default function ImageWithCaption({
   src,
   alt,
   title,
-  koko = "1200 x 800",
-  tekniikka = "akryyli ja munankuoret jne",
+  koko,
+  tekniikka = "akryyli ja munankuoret jne asdsad asd sad asd sadsadas dasd dsadsadasddsa",
   width = 1200,
   height = 800,
   fetchPriority,
@@ -36,7 +36,7 @@ export default function ImageWithCaption({
       <figcaption className="caption">
         <div className="caption-text">
           <h2>{title}</h2>
-          <p className="koko">{koko}</p>
+          {koko && <p className="koko">{koko}</p>}
         </div>
         <p className="tekniikka">{tekniikka}</p>
       </figcaption>
