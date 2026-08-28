@@ -52,7 +52,7 @@ export default function Footer() {
                   width={20}
                   height={20}
                 />
-                <p>repo.liisa@gmail.com</p>
+                <p>luisa.loreart@gmail.com</p>
               </a>
             </div>
           </div>

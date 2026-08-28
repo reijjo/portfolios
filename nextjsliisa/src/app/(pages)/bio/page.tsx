@@ -28,7 +28,7 @@ export default function Bio() {
           extraClassName="ratio-9-16"
         />
         <ImageWrapper
-          src="/images/bio/kypara.webp"
+          src="/images/bio/mina.webp"
           alt="mina2"
           extraClassName="ratio-9-16"
         />
