@@ -2,7 +2,7 @@ import HeroSection from "@/app/_components/HeroSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="home-page">
       <HeroSection />
     </main>
   );

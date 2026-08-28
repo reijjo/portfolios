@@ -15,6 +15,16 @@
   min-height: 100dvh;
   position: relative;
   background-color: var(--primary-xxlight);
+
+  /* background: linear-gradient(
+    to bottom,
+    transparent 30%,
+    var(--accent-xxlight) 70%
+  ); */
+
+  /* TÄTÄ VOIT VAIHTAA */
+  /* background-color: rgb(219, 197, 209); */
+  /* ---------------------------------- */
 }
 
 .bio-image-grid {

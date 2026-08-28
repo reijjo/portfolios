@@ -45,13 +45,6 @@ const images = [
     tekniikka: "Akryyli mdf-levylle",
   },
   {
-    src: "/images/taide/hetken-syleily2.webp",
-    alt: "Hetken syleily 2",
-    title: "Hetken syleily 2",
-    koko: "",
-    tekniikka: "",
-  },
-  {
     src: "/images/taide/kaikki-mita-mukanani-kannan.webp",
     alt: "Kaikki mitä mukanani kannan, 2026",
     title: "Kaikki mitä mukanani kannan, 2026",
@@ -87,20 +80,6 @@ const images = [
     tekniikka: "Muste ja akryyli mdf-levylle",
   },
   {
-    src: "/images/taide/kukkaharjoituksia1.webp",
-    alt: "Kehystetty korsitekukkakollaasi pysty, 2025",
-    title: "Kehystetty korsitekukkakollaasi pysty, 2025",
-    koko: "46 x 56 cm",
-    tekniikka: "Akryyli maitopahville ja pellavakankaalle",
-  },
-  {
-    src: "/images/taide/kukkaharjoituksia2.webp",
-    alt: "Kehystetty korsitekukkakollaasi vaaka, 2025",
-    title: "Kehystetty korsitekukkakollaasi vaaka, 2025",
-    koko: "56 x 46 cm",
-    tekniikka: "Akryyli maitopahville ja pellavakankaalle",
-  },
-  {
     src: "/images/taide/kukkivahuntu.webp",
     alt: "Kukkiva huntu, 2024, 2026",
     title: "Kukkiva huntu, 2024, 2026",
@@ -132,13 +111,6 @@ const images = [
     src: "/images/taide/merenrannalla.webp",
     alt: "Merenrannalla",
     title: "Merenrannalla",
-    koko: "",
-    tekniikka: "",
-  },
-  {
-    src: "/images/taide/metsassa.webp",
-    alt: "Metsässä",
-    title: "Metsässä",
     koko: "",
     tekniikka: "",
   },
