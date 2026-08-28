@@ -14,13 +14,23 @@ export default function Bio() {
         taiteen voivan kommunikoida vapaammin ohi älyllisyyden ja
         rationaalisuuden kahleiden.
       </p>{" "}
-      <p className="bigger-font">
+      {/* <p className="bigger-font">
         {" "}
         Teosteni aiheet liikkuvat taian ja sadun rajamailla, ne ovat
         mielikuvituksen ja alitajunnan antimia, olentoja ja ornamentteja, joiden
         värimaailma on kuin karkkia. Ne kutsuvat katselijansa tanssin
         pyörteisiin ja hulluttelemaan, joskus synkkienkin asioiden äärelle.
-      </p>{" "}
+      </p>{" "} */}
+      <p className="bigger-font">
+        Teosten aiheet ammentavat alitajunnasta, ja liikkuvat taian ja sadun
+        rajamailla. Ne ovat mielikuvituksen antimia, tunnepurkauksia,
+        ornamentteja ja olentoja, joiden värimaailma on kuin karkkia. Teokset
+        kutsuvat kohtaamansa ihmiset tanssinpyörteisiin ja hulluttelemaan,
+        joskus synkkienkin asioiden äärelle. Tarkoituksena on etsiä yhteyksiä ja
+        samankaltaisuutta, jonkinlaista keskiviivaa ja pehmeää ydintä älyllisen
+        erottelun sijaan. Viime aikoina taiteilijalle merkityksellisintä on
+        ollut seinämaalaus-projektit sekä koristemaalaustekniikoiden opiskelu.
+      </p>
       <ImageGrid>
         <ImageWrapper
           src="/images/bio/pataliisa.webp"
@@ -31,6 +41,7 @@ export default function Bio() {
           src="/images/bio/mina.webp"
           alt="mina2"
           extraClassName="ratio-9-16"
+          loading="eager"
         />
       </ImageGrid>
       <p className="bigger-font">

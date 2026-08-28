@@ -7,6 +7,7 @@ type ImageWrapperProps = {
   fetchPriority?: "high" | "low" | "auto";
   extraClassName?: string;
   objectFit?: "cover" | "contain" | "fill" | "none" | "scale-down";
+  loading?: "eager" | "lazy" | undefined;
 };
 
 export default function ImageWrapper({
@@ -14,6 +15,7 @@ export default function ImageWrapper({
   alt,
   fetchPriority = "low",
   extraClassName = "",
+  loading = undefined,
 }: ImageWrapperProps) {
   return (
     <div className="image-wrapper">
@@ -25,6 +27,7 @@ export default function ImageWrapper({
         sizes="(max-width: 768px) 100vw, 50vw"
         fetchPriority={fetchPriority}
         className={`image-wrapper-img ${extraClassName}`}
+        loading={loading}
       />
     </div>
   );
