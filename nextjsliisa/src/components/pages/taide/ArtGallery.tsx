@@ -223,6 +223,7 @@ export default function ArtGallery() {
             koko={image.koko}
             tekniikka={image.tekniikka}
             fetchPriority={index === 0 ? "high" : "auto"}
+            loading={index === 0 ? "eager" : "lazy"}
             onImageClick={() => setSelectedIndex(index)}
           />
         ))}
@@ -245,7 +246,7 @@ export default function ArtGallery() {
             onClick={() => setSelectedIndex(null)}
             aria-label="Close enlarged artwork"
           >
-            <X color="white" size={24} />
+            <X color="white" size={20} />
           </button>
           <button
             type="button"
@@ -257,7 +258,7 @@ export default function ArtGallery() {
             }
             aria-label="Previous artwork"
           >
-            <ChevronLeft color="white" size={24} />
+            <ChevronLeft color="white" size={20} />
           </button>
 
           <figure className="lightbox-content">
@@ -286,7 +287,7 @@ export default function ArtGallery() {
             }
             aria-label="Next artwork"
           >
-            <ChevronRight color="white" size={24} />
+            <ChevronRight color="white" size={20} />
           </button>
         </div>
       )}

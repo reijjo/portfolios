@@ -10,6 +10,7 @@ type ImageWithCaptionProps = {
   width?: number;
   height?: number;
   fetchPriority?: "high" | "low" | "auto";
+  loading?: "eager" | "lazy" | undefined;
   onImageClick?: () => void;
 };
 
@@ -22,6 +23,7 @@ export default function ImageWithCaption({
   width = 1200,
   height = 800,
   fetchPriority,
+  loading = undefined,
   onImageClick,
 }: ImageWithCaptionProps) {
   return (
@@ -40,6 +42,7 @@ export default function ImageWithCaption({
             height={height}
             sizes="(max-width: 400px) 100vw, 400px"
             fetchPriority={fetchPriority}
+            loading={loading}
           />
         </button>
       ) : (
