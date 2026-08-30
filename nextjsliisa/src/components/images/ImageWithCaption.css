@@ -36,12 +36,12 @@
 }
 
 .image-button img {
-  transition: opacity 180ms ease;
+  transition: all 180ms ease;
 }
 
 .image-button:hover img,
 .image-button:focus-visible img {
-  opacity: 0.78;
+  opacity: 0.85;
 }
 
 .image-button:focus-visible {
@@ -55,6 +55,7 @@
   justify-content: space-around;
   padding: 4rem 2rem;
   width: min(100%, 500px);
+  text-wrap: balance;
 
   & h2 {
     font-size: 1.5rem;
