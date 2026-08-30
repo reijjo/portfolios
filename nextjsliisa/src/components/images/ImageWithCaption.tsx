@@ -10,6 +10,7 @@ type ImageWithCaptionProps = {
   width?: number;
   height?: number;
   fetchPriority?: "high" | "low" | "auto";
+  onImageClick?: () => void;
 };
 
 export default function ImageWithCaption({
@@ -21,17 +22,36 @@ export default function ImageWithCaption({
   width = 1200,
   height = 800,
   fetchPriority,
+  onImageClick,
 }: ImageWithCaptionProps) {
   return (
     <figure className="image-with-caption">
-      <Image
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        sizes="(max-width: 400px) 100vw, 400px"
-        fetchPriority={fetchPriority}
-      />
+      {onImageClick ? (
+        <button
+          type="button"
+          className="image-button"
+          onClick={onImageClick}
+          aria-label={`Enlarge ${title}`}
+        >
+          <Image
+            src={src}
+            alt={alt}
+            width={width}
+            height={height}
+            sizes="(max-width: 400px) 100vw, 400px"
+            fetchPriority={fetchPriority}
+          />
+        </button>
+      ) : (
+        <Image
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          sizes="(max-width: 400px) 100vw, 400px"
+          fetchPriority={fetchPriority}
+        />
+      )}
 
       <figcaption className="caption">
         <div className="caption-text">
