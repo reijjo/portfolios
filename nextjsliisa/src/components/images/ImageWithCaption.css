@@ -21,11 +21,32 @@
   }
 }
 
+.image-button {
+  display: block;
+  width: min(100%, 500px);
+  padding: 0;
+  text-align: left;
+}
+
 .image-with-caption img {
   display: block;
   width: min(100%, 500px);
   height: auto;
   z-index: 1;
+}
+
+.image-button img {
+  transition: opacity 180ms ease;
+}
+
+.image-button:hover img,
+.image-button:focus-visible img {
+  opacity: 0.78;
+}
+
+.image-button:focus-visible {
+  outline: 2px solid var(--gray-950);
+  outline-offset: 0.5rem;
 }
 
 .caption {
