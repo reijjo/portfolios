@@ -13,6 +13,10 @@
   &:last-child {
     gap: 1.5rem;
   }
+
+  @media (max-width: 580px) {
+    padding-inline: 1rem;
+  }
 }
 
 .esitys-links {

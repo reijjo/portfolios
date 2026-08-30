@@ -26,10 +26,11 @@ export default function HeroSection() {
         />
       </div>
       <Sitaatti
-        // text='"Etsin samankaltaisuutta erilaisuudessa, taipuisaa keskiviivaa ja
-        // pehmeää ydintä. Radikaalisti keskeneräisenä ja keskitiellä, kapinoin
-        // kaikkea vastaan, etsien kuitenkin kotia."'
-        text='"Luova elämä on kytkeytymistä villien voimien pariin. Vimmaa. Eloonjäämistä ja elossapysymistä, yritystä keskustella luonnonvoimien kanssa. Se on askellusta jonkin pyhän äärellä, pesän rakentamista myrskyn silmään, antautumista etsinnälle, oudon kohtaamiselle, luonnonvoimien liikehdinnän havainnoimista ja sen ilmaisua, pysähtyneisyyden läikytystä sekä tarinan  mahdollistamista."'
+        text='"Etsin samankaltaisuutta erilaisuudessa, taipuisaa keskiviivaa ja
+        pehmeää ydintä. Radikaalisti keskeneräisenä ja keskitiellä, kapinoin
+        kaikkea vastaan, etsien kuitenkin kotia."'
+        // text='"Luova elämä on kytkeytymistä villien voimien pariin. Vimmaa. Eloonjäämistä ja elossapysymistä, yritystä keskustella luonnonvoimien kanssa. Se on askellusta jonkin pyhän äärellä, pesän rakentamista myrskyn silmään, antautumista etsinnälle, oudon kohtaamiselle
+        //  luonnonvoimien liikehdinnän havainnoimista ja sen ilmaisua, pysähtyneisyyden läikytystä sekä tarinan  mahdollistamista."'
       />
     </section>
   );
