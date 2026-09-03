@@ -1,16 +1,24 @@
 header {
   text-align: center;
-  padding-block: 1rem;
+  padding-block: 0.5rem;
+  height: var(--header-height);
 
   & h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: var(--font-lavish);
     font-weight: 200;
+  }
 
-    @media screen and (width <= 580px) {
+  @media screen and (width <= 580px) {
+    height: var(--header-height-mobile) - 1rem;
+
+    & h1 {
       font-size: 3rem;
     }
   }
+
+  /* TESTING */
+  /* END TESTING */
 }
 
 .header-wrapper {

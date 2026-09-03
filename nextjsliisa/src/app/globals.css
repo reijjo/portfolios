@@ -29,6 +29,10 @@ main {
 
   &:not(.home-page) {
     padding-top: 2rem;
+
+    /* TESTING */
+    /* padding-top: 6rem; */
+    /* END TESTING */
   }
 }
 
@@ -58,6 +62,11 @@ button {
 }
 
 :root {
+  --header-height: 7rem;
+  --header-height: 5rem;
+  --header-height-mobile: 6rem;
+  --nav-height: 4rem;
+
   --shadow-xxs:
     0 0.5rem 1rem rgba(0, 0, 0, 0.025), 0 1rem 2rem rgba(0, 0, 0, 0.0125);
   --shadow-xs:

@@ -17,6 +17,12 @@
   background-color: var(--primary-xxlight);
 }
 
+/* TESTING */
+/* .home-page {
+  padding-bottom: 0;
+} */
+/* END TESTING */
+
 .page-section,
 .bio-page {
   padding: 1rem 2rem;
