@@ -1,0 +1,33 @@
+.hero-new {
+  width: 100%;
+  /* padding: 1rem 2rem; */
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.hero-new-image-container {
+  position: relative;
+}
+
+.hero-new-image {
+  object-fit: cover;
+  width: 100%;
+  max-width: 1366px;
+  height: calc(100dvh - var(--header-height) - var(--nav-height));
+  /* height: 100dvh; */
+
+  object-position: 50% 20%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+}

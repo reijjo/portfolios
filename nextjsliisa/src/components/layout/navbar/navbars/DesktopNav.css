@@ -1,20 +1,16 @@
 nav {
   width: 100%;
-  position: sticky;
-  background-color: var(--gray-50);
-
-  /* TÄTÄ VOIT VAIHTAA */
-  /* background-color: #b198a2; */
-  /* ------------------------ */
-
   padding-block: 1rem;
-
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 10;
-
   clip-path: inset(0px -15px -15px -15px);
-  /* box-shadow: var(--shadow-xxs); */
+  height: var(--nav-height);
+  background-color: var(--gray-50);
+
+  /* TESTING */
+  /* END TESTING */
 }
 
 .nav-wrapper {

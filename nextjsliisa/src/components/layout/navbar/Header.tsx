@@ -1,5 +1,6 @@
 import MobileNav from "./navbars/MobileNav";
 import "./Header.css";
+import Link from "next/link";
 
 type HeaderProps = {
   isOpen: boolean;
@@ -10,7 +11,9 @@ export default function Header({ isOpen, setIsOpen }: HeaderProps) {
   return (
     <header>
       <div className="header-wrapper wrapper">
-        <h1>Luisa Lore</h1>
+        <Link href="/">
+          <h1>Luisa Lore</h1>
+        </Link>
         <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
       </div>
     </header>
