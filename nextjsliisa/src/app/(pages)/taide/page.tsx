@@ -3,7 +3,7 @@ import Sitaatti from "@/components/ui/Sitaatti";
 
 export default function Taide() {
   return (
-    <main className="wrapper">
+    <main className="wrapper header-margin">
       <div className="page-section taide-page">
         <h1>TAIDE</h1>
         <div className="sitaatti-wrapper">

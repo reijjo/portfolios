@@ -1,6 +1,7 @@
 "use client";
 
 import { Activity, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { useBreakpoint } from "@/hooks/useBreakpoint";
 import DesktopNav from "./navbars/DesktopNav";
 import Header from "./Header";
@@ -8,6 +9,9 @@ import Header from "./Header";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const isMobile = useBreakpoint(900);
+  const pathname = usePathname();
+
+  const isHomePage = pathname === "/";
 
   useEffect(() => {
     if (!isMobile) {

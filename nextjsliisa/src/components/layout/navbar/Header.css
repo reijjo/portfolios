@@ -18,6 +18,9 @@ header {
   }
 
   /* TESTING */
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 4;
   /* END TESTING */
 }
 
