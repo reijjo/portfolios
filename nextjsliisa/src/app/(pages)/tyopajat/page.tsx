@@ -14,7 +14,7 @@ const listItems = [
 
 export default function Tyopajat() {
   return (
-    <main className="wrapper">
+    <main className="wrapper header-margin">
       <div className="page-section">
         <PageHeader
           mainTitle="Canvas & Cocktails"

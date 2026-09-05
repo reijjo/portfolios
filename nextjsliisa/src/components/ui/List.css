@@ -1,6 +1,7 @@
 .basic-list {
   font-weight: 600;
   padding-inline: 1rem;
+  max-width: 680px;
 
   & li {
     text-wrap: balance;

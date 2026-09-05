@@ -2,7 +2,7 @@ import CvSection from "@/components/pages/cv/CvSection";
 
 export default function CV() {
   return (
-    <main className="wrapper">
+    <main className="wrapper header-margin">
       <div className="page-section">
         <h1 className="text-center">CV</h1>
         <CvSection

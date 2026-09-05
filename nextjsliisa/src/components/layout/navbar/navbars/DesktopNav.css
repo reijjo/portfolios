@@ -1,22 +1,39 @@
-nav {
-  width: 100%;
-  padding-block: 1rem;
-  position: sticky;
+.desktop-nav-marker {
+  position: absolute;
   top: 0;
   left: 0;
+  width: 1px;
+  height: var(--header-height);
+  pointer-events: none;
+}
+
+.desktop-navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: var(--nav-height);
+  flex-shrink: 0;
+  /* Keep the nav in the page's sticky containing block without shifting content. */
+  margin-top: var(--header-height);
+  margin-bottom: calc(0px - var(--header-height) - var(--nav-height));
   z-index: 10;
   clip-path: inset(0px -15px -15px -15px);
-  height: var(--nav-height);
-  background-color: var(--gray-50);
+  background-color: transparent;
+}
 
-  /* TESTING */
-  /* END TESTING */
+.desktop-navbar.is-sticky {
+  background-color: var(--gray-50);
 }
 
 .nav-wrapper {
   display: flex;
   align-items: center;
   height: 100%;
+}
+
+.nav-content {
+  height: 100%;
+  padding-block: 1rem;
 }
 
 .desktop-nav {
@@ -32,7 +49,8 @@ nav {
 }
 
 @media (max-width: 900px) {
-  .desktop-nav {
+  .desktop-navbar,
+  .desktop-nav-marker {
     display: none;
   }
 }

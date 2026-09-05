@@ -1,6 +1,5 @@
 .hero-new {
   width: 100%;
-  /* padding: 1rem 2rem; */
   height: 100%;
 
   display: flex;
@@ -10,18 +9,54 @@
   position: relative;
 }
 
-.hero-new-image-container {
-  position: relative;
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to bottom, white 0%, transparent 45%);
+
+  @media (max-width: 580px) {
+    background: linear-gradient(to bottom, white 0%, transparent 30%);
+  }
 }
 
 .hero-new-image {
   object-fit: cover;
   width: 100%;
-  max-width: 1366px;
-  height: calc(100dvh - var(--header-height) - var(--nav-height));
-  /* height: 100dvh; */
+  max-width: 1660px;
+  height: 90dvh;
 
-  object-position: 50% 20%;
+  object-position: center 30%;
+
+  @media (max-width: 1024px) {
+    object-position: center 20%;
+  }
+
+  @media (max-width: 900px) {
+    object-position: center 10%;
+  }
+
+  @media (max-width: 580px) {
+    display: none;
+  }
+}
+
+.hero-new-image-mobile {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 70dvh;
+
+  @media (min-width: 581px) {
+    display: none;
+  }
+}
+
+.new-mobile-img {
+  object-fit: cover;
+  object-position: center 0%;
 }
 
 .center {

@@ -9,7 +9,7 @@ export default function Esitykset() {
   const [spektri, setSpektri] = useState(true);
 
   return (
-    <main className="wrapper">
+    <main className="wrapper header-margin">
       <TabMenu active={spektri} setActive={setSpektri} />
       {spektri ? (
         <Spektri active={spektri} />
