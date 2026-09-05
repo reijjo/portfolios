@@ -1,6 +1,6 @@
 export const images = [
   {
-    src: "/images/taide/kaikkimitamukananikannan.webp",
+    src: "/images/taide/kaikki-mita.webp",
     alt: "Kaikki mitä mukanani kannan, 2026",
     title: "Kaikki mitä mukanani kannan, 2026",
     koko: "50 x 70 cm",
@@ -86,7 +86,7 @@ export const images = [
     tekniikka: "Akryyli mdf-levylle",
   },
   {
-    src: "/images/taide/kuohuksissa.webp",
+    src: "/images/taide/kuohu.webp",
     alt: "Kuohuissani, 2026",
     title: "Kuohuissani, 2026",
     koko: "70 x 50 cm",
@@ -100,7 +100,7 @@ export const images = [
     tekniikka: "Akryyli kankaalle",
   },
   {
-    src: "/images/taide/mielenitulva.webp",
+    src: "/images/taide/mieleni-tulva.webp",
     alt: "Mieleni tulva, 2026",
     title: "Mieleni tulva, 2026",
     koko: "50 x 61 cm",
