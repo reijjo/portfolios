@@ -201,7 +201,7 @@ export const images = [
   },
 
   {
-    src: "/images/taide/Tanssija.webp",
+    src: "/images/taide/tanssija.webp",
     alt: "Tanssija",
     title: "Tanssija",
     koko: "",
