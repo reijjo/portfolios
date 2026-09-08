@@ -1,7 +1,11 @@
 .basic-list {
   font-weight: 600;
-  padding-inline: 1rem;
   max-width: 680px;
+  padding: 2rem 4rem;
+  border: 1px solid var(--accent-xlight);
+  border-radius: var(--radius-l);
+  background-color: var(--accent-xxlight);
+  box-shadow: var(--shadow-xxs);
 
   & li {
     text-wrap: balance;

@@ -18,7 +18,7 @@ export default function Tyopajat() {
       <div className="page-section">
         <PageHeader
           mainTitle="Canvas & Cocktails"
-          subTitle="luovan maalauksen työpaja"
+          subTitle="Luovan maalauksen työpaja"
           pageLinks={[
             {
               href: "https://www.instagram.com/hotel.ax/",
@@ -68,12 +68,12 @@ export default function Tyopajat() {
           äärelle! Illan tavoitteena on nauttia luovuudesta ja tehdä teos, joka
           on juuri sinun näköisesi – eli mestariteos!"
         />
-        <List items={listItems} />
 
         <div className="image-grid">
           <ImageWrapper src="/images/tyopaja/lahi.webp" alt="lähikuva" />
           <ImageWrapper src="/images/tyopaja/kadet.webp" alt="sotkukädet" />
         </div>
+        <List items={listItems} />
       </div>
     </main>
   );
