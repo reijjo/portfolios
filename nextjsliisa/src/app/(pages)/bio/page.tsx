@@ -1,6 +1,7 @@
 import ImageGrid from "@/components/images/ImageGrid";
 import ImageWrapper from "@/components/images/ImageWrapper";
 import WhoAmI from "@/components/pages/bio/WhoAmI";
+import Image from "next/image";
 
 export default function Bio() {
   return (
@@ -27,23 +28,17 @@ export default function Bio() {
           rajamailla. Ne ovat mielikuvituksen antimia, tunnepurkauksia,
           ornamentteja ja olentoja, joiden värimaailma on kuin karkkia. Teokset
           kutsuvat kohtaamansa ihmiset tanssinpyörteisiin ja hulluttelemaan,
-          joskus synkkienkin asioiden äärelle. Tarkoituksena on etsiä yhteyksiä
-          ja samankaltaisuutta, jonkinlaista keskiviivaa ja pehmeää ydintä
-          älyllisen erottelun sijaan. Viime aikoina taiteilijalle
-          merkityksellisintä on ollut seinämaalaus-projektit sekä
-          koristemaalaustekniikoiden opiskelu.
+          joskus synkkienkin asioiden äärelle.
         </p>
         <ImageGrid>
           <ImageWrapper
-            src="/images/bio/pataliisa2.webp"
-            alt="Pataässä"
-            extraClassName="ratio-9-16"
+            src="/images/taide/ooppera/ooppera2.webp"
+            alt="Minä"
             loading="eager"
           />
           <ImageWrapper
-            src="/images/landing/Liisa-9-16.webp"
-            alt="Minä"
-            extraClassName="ratio-9-16"
+            src="/images/bio/pataliisa2.webp"
+            alt="Pataässä"
             loading="eager"
           />
         </ImageGrid>
@@ -52,7 +47,8 @@ export default function Bio() {
           ja hengelliset haasteet, taideterapia, kirjojen maailmat ja luonto.
           Kuvallisia valmiuksiani olen vahvistanut opiskelemalla taiteen ja
           käsityötaiteen perusopintoja, koristemaalausta ja kuvallista ilmaisua
-          Pekka Halosen Akatemiassa.
+          Pekka Halosen Akatemiassa. Merkityksellistä on ollut myös osallistua
+          lavastemaalausprojektiin Ranskan Orleanssissa keväällä 2025.
         </p>{" "}
         <p className="bigger-font">
           Olen syntynyt Reisjärven pappilaan isoon perheeseen ja asunut eri

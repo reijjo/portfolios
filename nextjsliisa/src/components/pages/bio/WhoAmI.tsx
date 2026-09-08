@@ -19,8 +19,8 @@ export default function WhoAmI() {
         seinämaalauksilla!{" "}
       </p>{" "} */}
       <p className="bigger-font">
-        Olen Helsingissä asuva taiteilija ja teen munankuoritaidetta, ohjaan
-        luovan maalauksen työpajoja, suunnittelen lastenkirjaa, ja unelmoin
+        Olen Helsingissä asuva taiteilija ja teen akryyli- ja öljyvärimaalauksia
+        sekä munankuoritaidetta, ohjaan luovan maalauksen työpajoja, ja unelmoin
         isojen koriste- ja seinämaalausten tekemisestä.
       </p>
     </div>

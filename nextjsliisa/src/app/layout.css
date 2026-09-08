@@ -78,10 +78,10 @@
 .sitaatti-wrapper {
   display: grid;
   place-items: center;
-  padding-block: 6rem;
+  padding-block: 4rem;
   border-bottom: 1px solid var(--gray-950);
   border-top: 1px solid var(--gray-950);
-  margin-block: 2rem;
+  margin-block: 1rem;
 
   & > p {
     text-align: left;
@@ -89,8 +89,14 @@
   }
 
   @media (max-width: 580px) {
-    padding-block: 4rem;
+    padding-block: 2rem;
   }
+}
+
+.reveal {
+  animation: from-bottom linear both;
+  animation-timeline: view();
+  animation-range: 0% entry 30%;
 }
 
 /* Animation */
