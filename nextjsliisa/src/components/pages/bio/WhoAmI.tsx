@@ -5,8 +5,10 @@ export default function WhoAmI() {
   return (
     <div className="who-am-i">
       <ImageWrapper
-        src="/images/taide/ooppera/ooppera2.webp"
-        alt="Ooppera"
+        // src="/images/bio/mina5.webp"
+        src="/images/bio/signeeraus.webp"
+        // src="/images/taide/ooppera/ooppera2.webp"
+        alt="Signeeraus"
         loading="eager"
         fetchPriority="high"
       />
