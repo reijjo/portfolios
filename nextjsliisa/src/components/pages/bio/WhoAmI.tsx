@@ -11,9 +11,12 @@ export default function WhoAmI() {
         fetchPriority="high"
       />
       <p className="bigger-font">
-        Olen Helsingissä asuva taiteilija ja teen akryyli- ja öljyvärimaalauksia
-        sekä munankuoritaidetta, ohjaan luovan maalauksen työpajoja, ja unelmoin
-        isojen koriste- ja seinämaalausten tekemisestä.
+        Olen Helsingissä asuva ja työskentelevä taiteilija. Kuvataiteesta on
+        muodostunut viime vuosina ilmaisuni pääväylä. Teen akryyli- ja
+        öljyvärimaalauksia sekä munankuoritaidetta, ohjaan tilauksesta luovan
+        maalauksen työpajoja, ja unelmoin isojen koriste- ja seinämaalausten
+        tekemisestä. Kokeilullinen tekeminen ja luovat metodit ovat tekemiseni
+        ytimessä.
       </p>
     </div>
   );

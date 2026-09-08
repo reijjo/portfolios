@@ -46,8 +46,8 @@
 
     @media (max-width: 600px) {
       height: auto;
-      max-height: 400px;
-      object-position: center 75%;
+      max-height: 450px;
+      object-position: center 95%;
     }
 
     @media (max-width: 520px) {
@@ -58,13 +58,13 @@
 
     @media (max-width: 440px) {
       height: auto;
-      max-height: 300px;
+      max-height: 320px;
       object-position: center 95%;
     }
 
     @media (max-width: 390px) {
       height: auto;
-      max-height: 250px;
+      max-height: 300px;
       object-position: center bottom;
     }
   }

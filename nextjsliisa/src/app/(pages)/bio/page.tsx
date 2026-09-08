@@ -1,7 +1,6 @@
 import ImageGrid from "@/components/images/ImageGrid";
 import ImageWrapper from "@/components/images/ImageWrapper";
 import WhoAmI from "@/components/pages/bio/WhoAmI";
-import Image from "next/image";
 
 export default function Bio() {
   return (
@@ -47,8 +46,8 @@ export default function Bio() {
           ja hengelliset haasteet, taideterapia, kirjojen maailmat ja luonto.
           Kuvallisia valmiuksiani olen vahvistanut opiskelemalla taiteen ja
           käsityötaiteen perusopintoja, koristemaalausta ja kuvallista ilmaisua
-          Pekka Halosen Akatemiassa. Merkityksellistä on ollut myös osallistua
-          lavastemaalausprojektiin Ranskan Orleanssissa keväällä 2025.
+          Pekka Halosen Akatemiassa. Keväällä 2025 sain osallistua
+          lavastemaalausprojektiin Ranskan Orleanssissa.
         </p>{" "}
         <p className="bigger-font">
           Olen syntynyt Reisjärven pappilaan isoon perheeseen ja asunut eri
