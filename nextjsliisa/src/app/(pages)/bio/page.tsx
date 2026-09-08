@@ -35,15 +35,15 @@ export default function Bio() {
         </p>
         <ImageGrid>
           <ImageWrapper
-            src="/images/bio/pataliisa.webp"
+            src="/images/bio/pataliisa2.webp"
             alt="Pataässä"
             extraClassName="ratio-9-16"
             loading="eager"
           />
           <ImageWrapper
-            src="/images/landing/liisa-9-16.webp"
-            alt="La Fiaba ripustus"
-            extraClassName="ratio-9-16 position-left"
+            src="/images/landing/Liisa-9-16.webp"
+            alt="Minä"
+            extraClassName="ratio-9-16"
             loading="eager"
           />
         </ImageGrid>
