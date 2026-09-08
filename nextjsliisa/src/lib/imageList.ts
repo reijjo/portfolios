@@ -151,8 +151,8 @@ export const images = [
   },
   {
     src: "/images/taide/keraaminen-vanhus.webp",
-    alt: "Keraaminen vanhus",
-    title: "Keraaminen vanhus",
+    alt: "Uurteet",
+    title: "Uurteet",
     koko: "30 x 30 cm",
     tekniikka: "Akryyli ja munankuoret tarjoiluvadille",
   },
@@ -165,8 +165,8 @@ export const images = [
   },
   {
     src: "/images/taide/mania.webp",
-    alt: "Maniac, 2021",
-    title: "Maniac, 2021",
+    alt: "Mania, 2021",
+    title: "Mania, 2021",
     koko: "24 x 33 cm",
     tekniikka: "Akryyli ja munankuoret kankaalle",
   },
