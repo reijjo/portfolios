@@ -9,7 +9,7 @@ export default function HeroNew() {
       <div className="hero-overlay"></div>
       <Image
         className="hero-new-image"
-        src="/images/landing/og-zoomout.webp"
+        src="/images/bio/esilla.webp"
         alt="Luisa Lore"
         width={1600}
         height={900}
@@ -17,7 +17,7 @@ export default function HeroNew() {
         priority
         loading="eager"
       />
-      <div className="hero-new-image-mobile">
+      {/* <div className="hero-new-image-mobile">
         <Image
           src="/images/landing/og-zoomout-mobile2.webp"
           alt="Luisa Lore"
@@ -28,7 +28,7 @@ export default function HeroNew() {
           fetchPriority="high"
           loading="eager"
         />
-      </div>
+      </div> */}
       <div className="wrapper center">
         <Sitaatti
           text='"Etsin samankaltaisuutta erilaisuudessa, taipuisaa keskiviivaa ja
