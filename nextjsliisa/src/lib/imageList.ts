@@ -43,14 +43,14 @@ export const images = [
     tekniikka: "Akryyli ja muste kankaalle",
   },
   {
-    src: "/images/taide/pataassa.webp",
+    src: "/images/taide/pataassa2.webp",
     alt: "Pataässä",
     title: "Pataässä",
     koko: "80 x 100 cm",
     tekniikka: "Akryyli kankaalle",
   },
   {
-    src: "/images/taide/kukanimijatbest.webp",
+    src: "/images/taide/kukanimijatbest2.webp",
     alt: "Kukanimijät, 2026",
     title: "Kukanimijät, 2026",
     koko: "46 x 38 cm",
@@ -186,7 +186,7 @@ export const images = [
   },
 
   {
-    src: "/images/taide/wastingtimecrop.webp",
+    src: "/images/taide/wastingtimecrop2.webp",
     alt: "Wasting Time",
     title: "Wasting Time",
     koko: "35 x 25 cm",
