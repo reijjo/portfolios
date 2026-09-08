@@ -33,12 +33,20 @@ export default function Bio() {
           merkityksellisintä on ollut seinämaalaus-projektit sekä
           koristemaalaustekniikoiden opiskelu.
         </p>
-        <ImageWrapper
-          // src="/images/bio/mina5.webp"
-          src="/images/bio/esilla.webp"
-          alt="näyttely esillä"
-          loading="eager"
-        />
+        <ImageGrid>
+          <ImageWrapper
+            src="/images/bio/pataliisa.webp"
+            alt="Pataässä"
+            extraClassName="ratio-9-16"
+            loading="eager"
+          />
+          <ImageWrapper
+            src="/images/landing/liisa-9-16.webp"
+            alt="La Fiaba ripustus"
+            extraClassName="ratio-9-16 position-left"
+            loading="eager"
+          />
+        </ImageGrid>
         <p className="bigger-font">
           Merkityksellisiä alkusysäyksiä kuvien maailmaan ovat tuoneet henkiset
           ja hengelliset haasteet, taideterapia, kirjojen maailmat ja luonto.
@@ -50,20 +58,6 @@ export default function Bio() {
           Olen syntynyt Reisjärven pappilaan isoon perheeseen ja asunut eri
           puolilla suomea sekä ulkomailla mm. Moskovassa ja Detroitissa.
         </p>
-        <ImageGrid>
-          <ImageWrapper
-            src="/images/bio/ripustus.webp"
-            alt="La Fiaba ripustus"
-            extraClassName="ratio-9-16 position-left"
-            loading="eager"
-          />
-          <ImageWrapper
-            src="/images/bio/pataliisa.webp"
-            alt="Pataässä"
-            extraClassName="ratio-9-16"
-            loading="eager"
-          />
-        </ImageGrid>
         {/* <div className="image-grid bio-image-grid">
         <div className="placeholder">reisjärvi</div>
         <div className="placeholder">moskova</div>
