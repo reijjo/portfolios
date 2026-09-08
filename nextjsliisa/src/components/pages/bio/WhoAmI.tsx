@@ -5,19 +5,11 @@ export default function WhoAmI() {
   return (
     <div className="who-am-i">
       <ImageWrapper
-        // src="/images/bio/mina5.webp"
         src="/images/bio/signeeraus.webp"
-        // src="/images/taide/ooppera/ooppera2.webp"
         alt="Signeeraus"
         loading="eager"
         fetchPriority="high"
       />
-      {/* <p className="bigger-font">
-        Olen Luisa Lore, Helsingissä asuva ja työskentelevä taiteilija.
-        Inspiroidun luovasta ilmaisusta ja mielen mystiikasta sekä
-        koristemaalausten estetiikasta ja haastan itseäni isoilla
-        seinämaalauksilla!{" "}
-      </p>{" "} */}
       <p className="bigger-font">
         Olen Helsingissä asuva taiteilija ja teen akryyli- ja öljyvärimaalauksia
         sekä munankuoritaidetta, ohjaan luovan maalauksen työpajoja, ja unelmoin

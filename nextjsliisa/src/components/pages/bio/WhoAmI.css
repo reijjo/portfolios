@@ -24,17 +24,48 @@
   }
 
   & img {
-    height: 600px;
     height: 800px;
     width: 100%;
     object-fit: cover;
     object-position: center 70%;
 
-    @media (max-width: 600px) {
-      aspect-ratio: 9/16;
-      height: auto;
+    @media (max-width: 1000px) {
+      max-height: 700px;
+      object-position: center 80%;
+    }
+
+    @media (max-width: 900px) {
       max-height: 600px;
-      object-position: top;
+      object-position: center 80%;
+    }
+
+    @media (max-width: 800px) {
+      max-height: 500px;
+      object-position: center 75%;
+    }
+
+    @media (max-width: 600px) {
+      height: auto;
+      max-height: 400px;
+      object-position: center 75%;
+    }
+
+    @media (max-width: 520px) {
+      height: auto;
+      max-height: 350px;
+      object-position: center 85%;
+    }
+
+    @media (max-width: 440px) {
+      height: auto;
+      max-height: 300px;
+      object-position: center 95%;
+    }
+
+    @media (max-width: 390px) {
+      height: auto;
+      max-height: 250px;
+      object-position: center bottom;
     }
   }
 }
