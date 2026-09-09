@@ -46,8 +46,8 @@ export default function Bio() {
           ja hengelliset haasteet, taideterapia, kirjojen maailmat ja luonto.
           Kuvallisia valmiuksiani olen vahvistanut opiskelemalla taiteen ja
           käsityötaiteen perusopintoja, koristemaalausta ja kuvallista ilmaisua
-          Pekka Halosen Akatemiassa. Keväällä 2025 sain osallistua
-          lavastemaalausprojektiin Ranskan Orleanssissa.
+          Pekka Halosen Akatemiassa. Keväällä 2025 sain työskennellä osana
+          lavastemaalausprojektia Ranskan Orleanssissa.
         </p>{" "}
         <p className="bigger-font">
           Olen syntynyt Reisjärven pappilaan isoon perheeseen ja asunut eri
