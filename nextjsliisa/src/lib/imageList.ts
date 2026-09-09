@@ -22,7 +22,7 @@ export const images = [
   },
   {
     src: "/images/taide/Voodooviidakkoseremonia.webp",
-    alt: "Voodoo Viidakkoseremonia, 2025",
+    alt: "Voodoo viidakkoseremonia, 2025",
     title: "Voodoo Viidakkoseremonia, 2025",
     koko: "50 x 61 cm",
     tekniikka: "Akryyli kankaalle",
@@ -94,8 +94,8 @@ export const images = [
   },
   {
     src: "/images/taide/metsa-ssa.webp",
-    alt: "Metsässä, 2025",
-    title: "Metsässä, 2025",
+    alt: "Metsä, 2025",
+    title: "Metsä, 2025",
     koko: "46 x 38 cm",
     tekniikka: "Akryyli kankaalle",
   },
@@ -123,8 +123,8 @@ export const images = [
   },
   {
     src: "/images/taide/merenrannalla2.webp",
-    alt: "Merenrannalla",
-    title: "Merenrannalla",
+    alt: "Auringonlasku",
+    title: "Auringonlasku",
     koko: "78 x 100 cm",
     tekniikka: "Akryylimaali kartongille",
   },
@@ -179,8 +179,8 @@ export const images = [
   },
   {
     src: "/images/taide/munankuoret/croissantti.webp",
-    alt: "Croissantti puussa",
-    title: "Croissantti puussa",
+    alt: "Croissant",
+    title: "Croissant",
     koko: "50 x 40 cm",
     tekniikka: "Akryyli ja munankuoret kankaalle",
   },

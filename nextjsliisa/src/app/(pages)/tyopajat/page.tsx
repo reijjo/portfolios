@@ -45,9 +45,8 @@ export default function Tyopajat() {
           <p className="bigger-font">
             Työpaja koostuu kolmesta alkuharjoituksesta, joilla lämmitellään
             varsinaista maalausta varten. Harjoituksissa herätellään aisteja ja
-            sivellintä, sekä tehdään sattumanvaraisia teoksia. Tarkoituksena on
-            auttaa osallistujia löytämään uusia maalaustapoja ja vahvistaa omaa
-            tyyliä ja ilmaisua sekä nauttia vapautuneesta tekemisestä.
+            kädenliikettä, ja niiden tarkoituksena on tuoda rentoutta tekemiseen
+            ja antaa ideoita jaavata reittiä oman tyylin toteuttamiseen.
           </p>
         </div>
         <ImageGrid>
@@ -56,11 +55,11 @@ export default function Tyopajat() {
         </ImageGrid>
         <div className="text-container">
           <p className="bigger-font">
-            Ohjaan osallistujat maalauksen alkuun eikä aiempaa kokemusta
-            tarvita. Yhdessä voimme myös etsiä keinoja maalauksen
-            toteuttamiseen. Lopullinen maalaus on esittävä tai absrakti
-            taideteos, joka on toteutettu vapaasti tai kuva-aiheen pohjalta ja
-            sen saa mukaan kotiin.
+            Ohjaan osallistujat maalauksessa alkuun ja tarvittaessa autan myös
+            löytämään keinoja maalauksen toteuttamiseen työpajan aikana.
+            Lopullinen maalaus on esittävä tai absrakti taideteos, joka on
+            toteutettu vapaasti tai kuva-aiheen pohjalta, ja sen saa mukaan
+            kotiin.
           </p>
         </div>
         <Sitaatti
