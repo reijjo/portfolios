@@ -44,8 +44,8 @@ export const images = [
   },
   {
     src: "/images/taide/pataassa2.webp",
-    alt: "Pataässä",
-    title: "Pataässä",
+    alt: "Pataässä, 2024",
+    title: "Pataässä, 2024",
     koko: "80 x 100 cm",
     tekniikka: "Akryyli kankaalle",
   },
@@ -109,8 +109,8 @@ export const images = [
 
   {
     src: "/images/taide/meren-verkossa2.webp",
-    alt: "Meren verkossa",
-    title: "Meren verkossa",
+    alt: "Veden verkko, 2024",
+    title: "Veden verkko, 2024",
     koko: "80 x 100 cm",
     tekniikka: "Akryyli kankaalle",
   },
@@ -123,15 +123,15 @@ export const images = [
   },
   {
     src: "/images/taide/merenrannalla2.webp",
-    alt: "Auringonlasku",
-    title: "Auringonlasku",
+    alt: "Auringonlasku, 2025",
+    title: "Auringonlasku, 2025",
     koko: "78 x 100 cm",
     tekniikka: "Akryylimaali kartongille",
   },
   {
     src: "/images/taide/vuoretvuoretvuoret.webp",
-    alt: "Vuoret",
-    title: "Vuoret",
+    alt: "Vuoret,  2025",
+    title: "Vuoret, 2025",
     koko: "65 x 50 cm",
     tekniikka: "Akryyli kankaalle",
   },
@@ -151,8 +151,8 @@ export const images = [
   },
   {
     src: "/images/taide/keraaminen-vanhus.webp",
-    alt: "Uurteet",
-    title: "Uurteet",
+    alt: "Uurteet, 2022",
+    title: "Uurteet, 2022",
     koko: "30 x 30 cm",
     tekniikka: "Akryyli ja munankuoret tarjoiluvadille",
   },
@@ -179,16 +179,16 @@ export const images = [
   },
   {
     src: "/images/taide/munankuoret/croissantti.webp",
-    alt: "Croissant",
-    title: "Croissant",
+    alt: "Croissant, 2021",
+    title: "Croissant, 2021",
     koko: "50 x 40 cm",
     tekniikka: "Akryyli ja munankuoret kankaalle",
   },
 
   {
     src: "/images/taide/wastingtimecrop2.webp",
-    alt: "Wasting Time",
-    title: "Wasting Time",
+    alt: "Wasting Time, 2022",
+    title: "Wasting Time, 2022",
     koko: "35 x 25 cm",
     tekniikka: "Akryyli ja munakuoret kankaalle",
   },
@@ -209,15 +209,15 @@ export const images = [
 
   {
     src: "/images/taide/tanssija.webp",
-    alt: "Tanssija",
-    title: "Tanssija",
+    alt: "Tanssija, 2022",
+    title: "Tanssija, 2022",
     koko: "30 x 40 cm",
     tekniikka: "Akryyli ja munankuoret kankaalle",
   },
   {
     src: "/images/taide/paperimosaiikkinukke.webp",
-    alt: "Paperimosaiikkinukke",
-    title: "Paperimosaiikkinukke",
+    alt: "Paperimosaiikkinukke, 2024",
+    title: "Paperimosaiikkinukke, 2024",
     koko: "80 x 100 cm",
     tekniikka: "Lehtileikkeet paperille",
   },

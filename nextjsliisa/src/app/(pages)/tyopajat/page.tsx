@@ -46,7 +46,7 @@ export default function Tyopajat() {
             Työpaja koostuu kolmesta alkuharjoituksesta, joilla lämmitellään
             varsinaista maalausta varten. Harjoituksissa herätellään aisteja ja
             kädenliikettä, ja niiden tarkoituksena on tuoda rentoutta tekemiseen
-            ja antaa ideoita jaavata reittiä oman tyylin toteuttamiseen.
+            ja antaa ideoita ja avata reittiä oman tyylin toteuttamiseen.
           </p>
         </div>
         <ImageGrid>
