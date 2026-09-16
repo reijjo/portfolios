@@ -15,13 +15,6 @@ export default function Bio() {
           taiteen voivan kommunikoida vapaammin ohi älyllisyyden ja
           rationaalisuuden kahleiden.
         </p>{" "}
-        {/* <p className="bigger-font">
-        {" "}
-        Teosteni aiheet liikkuvat taian ja sadun rajamailla, ne ovat
-        mielikuvituksen ja alitajunnan antimia, olentoja ja ornamentteja, joiden
-        värimaailma on kuin karkkia. Ne kutsuvat katselijansa tanssin
-        pyörteisiin ja hulluttelemaan, joskus synkkienkin asioiden äärelle.
-      </p>{" "} */}
         <p className="bigger-font">
           Teosten aiheet ammentavat alitajunnasta, ja liikkuvat taian ja sadun
           rajamailla. Ne ovat mielikuvituksen antimia, tunnepurkauksia,

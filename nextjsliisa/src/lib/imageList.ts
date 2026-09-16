@@ -6,6 +6,7 @@ export const images = [
     koko: "50 x 70 cm",
     tekniikka: "Akryyli kankaalle",
   },
+
   {
     src: "/images/taide/Kukkiva-huntu.webp",
     alt: "Kukkiva huntu, 2026",
@@ -77,7 +78,13 @@ export const images = [
     koko: "40 x 40 cm",
     tekniikka: "Akryyli kankaalle",
   },
-
+  {
+    src: "/images/taide/kuumakaaro.webp",
+    alt: "Kuuma käärö, 2023",
+    title: "Kuuma käärö, 2023",
+    koko: "50 x 40 cm",
+    tekniikka: "Akryyli mdf-levylle",
+  },
   {
     src: "/images/taide/Taivaan-merkit.webp",
     alt: "Taivaan merkit, 2026",

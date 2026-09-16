@@ -15,7 +15,7 @@ export default function WhoAmI() {
         muodostunut viime vuosina ilmaisuni pääväylä. Teen akryyli- ja
         öljyvärimaalauksia sekä munankuoritaidetta, ohjaan tilauksesta luovan
         maalauksen työpajoja, ja unelmoin isojen koriste- ja seinämaalausten
-        tekemisestä. Kokeilullinen tekeminen ja luovat metodit ovat tekemiseni
+        tekemisestä. Luovat metodit ja kokeilullisuus ovat työskentelyni
         ytimessä.
       </p>
     </div>
